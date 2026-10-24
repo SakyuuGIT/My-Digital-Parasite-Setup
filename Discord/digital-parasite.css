@@ -1,0 +1,43 @@
+/* Digital Parasite — Discord theme (system24-based) */
+/* Palette: Rose #ff2d7a · Green #39ff88 · Cyan #00e5ff · Yellow #ffd93d */
+
+:root {
+  --background-primary: #0a0a12;
+  --background-secondary: #12121f;
+  --background-tertiary: #0d0d18;
+  --background-accent: #1a0a1f;
+  --text-normal: #e8e6f0;
+  --text-muted: #6b6880;
+  --text-link: #00e5ff;
+  --brand-experiment: #ff2d7a;
+  --interactive-normal: #e8e6f0;
+  --interactive-hover: #ff2d7a;
+  --interactive-active: #39ff88;
+  --status-online: #39ff88;
+  --status-idle: #ffd93d;
+  --status-dnd: #ff2d7a;
+  --status-offline: #6b6880;
+}
+
+/* Accent glow on mentions */
+.mention {
+  background: rgba(255, 45, 122, 0.15);
+  color: #ff2d7a;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+
+/* Channel list hover */
+.channel-1ShaoC:hover {
+  background: rgba(57, 255, 136, 0.08);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #ff2d7a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #39ff88;
+}

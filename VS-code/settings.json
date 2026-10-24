@@ -1,0 +1,17 @@
+{
+  "workbench.colorTheme": "Digital Parasite",
+  "editor.fontFamily": "JetBrains Mono, Consolas, monospace",
+  "editor.fontSize": 13,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.colorCustomizations": {
+    "editor.background": "#0a0a12",
+    "editor.foreground": "#e8e6f0",
+    "activityBar.background": "#12121f",
+    "sideBar.background": "#12121f",
+    "statusBar.background": "#1a0a1f",
+    "statusBar.foreground": "#e8e6f0",
+    "titleBar.activeBackground": "#0a0a12",
+    "titleBar.activeForeground": "#ff2d7a"
+  }
+}
