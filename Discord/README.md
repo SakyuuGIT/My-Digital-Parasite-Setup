@@ -5,7 +5,7 @@ A Discord theme based on [system24](https://github.com/refact0r/system24) by ref
 ## Installation
 
 1. Install [Vencord](https://vencord.dev/) or [BetterDiscord](https://betterdiscord.app/).
-2. Copy `digital-parasite.css` into your themes folder.
+2. Copy `system24-digital-parasite.theme.css` into your themes folder.
 3. Enable the theme in Discord settings.
 
 ## Palette
