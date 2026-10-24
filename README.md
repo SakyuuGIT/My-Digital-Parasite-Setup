@@ -20,6 +20,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 🌐 [Chrome / Edge](./Chrome) | Browser theme (Manifest V3) | `manifest.json` |
 | 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
 | 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
+| 🎯 [Kovaak's](./Kovaak) | Kovaak's aim trainer theme | `! Sakyuu - Digital Parasite.json` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
 
 ## About Digital Parasite
@@ -50,6 +51,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Obsidian Cyberpunk theme:** [nxxxsooo/obsidian-cyberpunk-theme](https://github.com/nxxxsooo/obsidian-cyberpunk-theme)
 - **Chrome / Edge:** Browser theme via Manifest V3 theme API.
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
+- **Kovaak's:** Aim trainer theme (based on the user's existing themes, recolored with Digital Parasite palette)
 
 ## Disclaimer
 
