@@ -6,7 +6,6 @@ Wallpapers for the Digital Parasite theme. Place them in your wallpaper folder a
 
 | File | Description |
 | --- | --- |
-| `Capri wallpaper.jpg` | Original Capri wallpaper (3840×2160) |
 | `Capri wallpaper 2.jpg` | Capri character wallpaper |
 
 ## YASB Integration
