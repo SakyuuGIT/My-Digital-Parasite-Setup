@@ -145,3 +145,22 @@
 
     --highlight_color: #ff2d7a;
 }
+
+VolumeMeter {
+    qproperty-backgroundNominalColor: #2a2a3f;
+    qproperty-backgroundWarningColor: #2a2a3f;
+    qproperty-backgroundErrorColor: #2a2a3f;
+    qproperty-foregroundNominalColor: #39ff88;
+    qproperty-foregroundWarningColor: #ffd93d;
+    qproperty-foregroundErrorColor: #ff2d7a;
+    qproperty-magnitudeColor: #e8e6f0;
+    qproperty-majorTickColor: #6b6880;
+    qproperty-minorTickColor: #4a4860;
+
+    qproperty-backgroundNominalColorDisabled: #12121f;
+    qproperty-backgroundWarningColorDisabled: #12121f;
+    qproperty-backgroundErrorColorDisabled: #12121f;
+    qproperty-foregroundNominalColorDisabled: #4a4860;
+    qproperty-foregroundWarningColorDisabled: #4a4860;
+    qproperty-foregroundErrorColorDisabled: #4a4860;
+}

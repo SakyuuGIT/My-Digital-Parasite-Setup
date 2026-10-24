@@ -44,7 +44,7 @@ theme
 	{
 		enabled = true
 		size = 1
-		color = #12121f
+		color = #ff2d7a
 		opacity = 100
 		radius = 16
 	}
