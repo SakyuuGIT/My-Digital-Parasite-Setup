@@ -13,9 +13,9 @@ A collection of themes and configuration files for my Windows environment, built
 | ⚡ [Windhawk](./Windhawk) | Nine mod configurations | Files are stored directly in `Windhawk/` |
 | 🐚 [Nilesoft Shell](./Nilesoft%20Shell) | Digital Parasite shell theme | `theme.nss` |
 | 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
-| 📟 [YASB (Okinami)](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` |
-| 📟 [YASB (Akira)](./YASB-Akira) | i3WM-inspired YASB bar (square, no rounding) | `config.yaml` + `styles.css` |
-| 📟 [YASB (Shibumi)](./YASB-Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` |
+| 📟 [YASB (Okinami)](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` — [Source: MrDLingters/Okinami_YASB](https://github.com/MrDLingters/Okinami_YASB) |
+| 📟 [YASB (Akira)](./YASB-Akira) | i3WM-inspired YASB bar (square, no rounding) | `config.yaml` + `styles.css` — [Source: AmNweb/Akira_YASB](https://github.com/AmNweb/Akira_YASB) |
+| 📟 [YASB (Shibumi)](./YASB-Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` — [Source: AmNweb/Shibumi_YASB](https://github.com/AmNweb/Shibumi_YASB) |
 | 🤖 [Hermes](./Hermes) | Hermes Agent skin | `digital-parasite.yaml` |
 | 🌐 [Chrome / Edge](./Chrome) | Browser theme (Manifest V3) | `manifest.json` |
 | 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
