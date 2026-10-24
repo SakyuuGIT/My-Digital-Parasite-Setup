@@ -24,4 +24,4 @@ A Digital Parasite theme for OBS Studio, based on the Yami Default theme family.
 
 ## Notes
 
-The `.ovt` file is a standard OBS theme archive. Replace the placeholder with your exported theme if needed.
+The `.ovt` file is based on the Yami Default theme family, recolored with the Digital Parasite palette. Install it via **Settings → Appearance → Theme**.

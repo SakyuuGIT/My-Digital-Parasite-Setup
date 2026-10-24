@@ -1,0 +1,5 @@
+multipleItemsBehavior: closeAll
+keysToEndTask:
+  Ctrl: 1
+  Alt: 0
+oldTaskbarOnWin11: 0

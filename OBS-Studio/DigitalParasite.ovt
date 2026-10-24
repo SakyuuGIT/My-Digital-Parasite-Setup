@@ -1,3 +1,147 @@
-Digital Parasite OBS Studio theme placeholder.
-Export your OBS theme as DigitalParasite.ovt and replace this file.
-Palette: Rose #ff2d7a · Green #39ff88 · Cyan #00e5ff · Yellow #ffd93d · Background #0a0a12
+@OBSThemeMeta {
+    name: 'Digital Parasite';
+    id: 'com.obsproject.Yami.DigitalParasite';
+    extends: 'com.obsproject.Yami';
+    author: 'Sakyuu';
+    dark: 'true';
+}
+
+@OBSThemeVars {
+    /* Digital Parasite palette */
+    --grey1: #6b6880;
+    --grey2: #4a4860;
+    --grey3: #2a2a3f;
+    --grey4: #1a1a2e;
+    --grey5: #0d0d18;
+    --grey6: #0a0a12;
+    --grey7: #12121f;
+    --grey8: #12121f;
+
+    --white1: #e8e6f0;
+    --white2: #e8e6f0;
+    --white3: #c8c6d8;
+    --white4: #a8a6bc;
+    --white5: #6b6880;
+
+    --black1: #12121f;
+    --black2: #0d0d18;
+    --black3: #0a0a12;
+    --black4: #2a2a3f;
+    --black5: #4a4860;
+
+    --blue1: #00e5ff;
+    --blue2: #00e5ff;
+    --blue3: #33eeff;
+    --blue4: #00e5ff;
+    --blue5: #00e5ff;
+    --blue6: #00e5ff;
+
+    --red1: #ff2d7a;
+    --red2: #ff2d7a;
+    --red3: #ff2d7a;
+    --red4: #ff2d7a;
+    --red5: #ff2d7a;
+    --red6: #ff2d7a;
+
+    --pink1: #ff2d7a;
+    --pink2: #ff2d7a;
+    --pink3: #ff2d7a;
+    --pink4: #ff2d7a;
+    --pink5: #ff2d7a;
+    --pink6: #ff2d7a;
+
+    --teal1: #00e5ff;
+    --teal2: #00e5ff;
+    --teal3: #00e5ff;
+    --teal4: #00e5ff;
+    --teal5: #00e5ff;
+    --teal6: #00e5ff;
+
+    --purple1: #ff2d7a;
+    --purple2: #ff2d7a;
+    --purple3: #ff2d7a;
+    --purple4: #ff2d7a;
+    --purple5: #ff2d7a;
+    --purple6: #ff2d7a;
+
+    --green1: #39ff88;
+    --green2: #39ff88;
+    --green3: #39ff88;
+    --green4: #39ff88;
+    --green5: #39ff88;
+    --green6: #39ff88;
+
+    --yellow1: #ffd93d;
+    --yellow2: #ffd93d;
+    --yellow3: #ffd93d;
+    --yellow4: #ffd93d;
+    --yellow5: #ffd93d;
+    --yellow6: #ffd93d;
+
+    --bg_window: #12121f;
+    --bg_base: #0d0d18;
+    --bg_preview: #0a0a12;
+
+    --primary: #ff2d7a;
+    --primary_light: #ff5fa0;
+    --primary_lighter: #e8e6f0;
+    --primary_dark: #cc2462;
+    --primary_darker: #2a2a3f;
+
+    --warning: #ffd93d;
+    --danger: #ff2d7a;
+
+    --text: #e8e6f0;
+    --text_light: #e8e6f0;
+    --text_muted: #6b6880;
+    --text_disabled: #4a4860;
+    --text_inactive: #ff2d7a;
+
+    --border_color: #2a2a3f;
+
+    --input_bg: #12121f;
+    --input_bg_hover: #2a2a3f;
+    --input_bg_focus: #2a2a3f;
+
+    --list_item_bg_selected: #2a2a3f;
+    --list_item_bg_hover: #12121f;
+
+    --input_border: #2a2a3f;
+    --input_border_hover: #4a4860;
+    --input_border_focus: #ff2d7a;
+
+    --button_bg: #12121f;
+    --button_bg_hover: #2a2a3f;
+    --button_bg_down: #4a4860;
+    --button_bg_disabled: #0d0d18;
+
+    --button_bg_red: #ff2d7a;
+    --button_bg_red_hover: #ff5fa0;
+    --button_bg_red_down: #cc2462;
+
+    --button_border: #2a2a3f;
+    --button_border_hover: #4a4860;
+    --button_border_focus: #ff2d7a;
+
+    --tab_bg: #12121f;
+    --tab_bg_hover: #2a2a3f;
+    --tab_bg_down: #4a4860;
+    --tab_bg_disabled: #0d0d18;
+
+    --tab_border: #2a2a3f;
+    --tab_border_hover: #4a4860;
+    --tab_border_focus: #ff2d7a;
+    --tab_border_selected: #ff2d7a;
+
+    --scrollbar_handle: #4a4860;
+    --scrollbar_hover: #6b6880;
+    --scrollbar_down: #ff2d7a;
+    --scrollbar_border: #2a2a3f;
+
+    --toolbutton_bg: #12121f;
+    --toolbutton_bg_hover: #2a2a3f;
+    --toolbutton_bg_down: #4a4860;
+    --toolbutton_bg_disabled: #0d0d18;
+
+    --highlight_color: #ff2d7a;
+}

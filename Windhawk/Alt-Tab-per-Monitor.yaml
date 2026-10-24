@@ -1,0 +1,4 @@
+altTabLocation: cursor
+altTabWindows: cursorMonitor
+winAltTabLocation: cursor
+winAltTabWindows: allMonitors
