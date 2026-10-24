@@ -20,7 +20,7 @@ A Kovaak's (FPS Aim Trainer) theme using the Digital Parasite palette.
 
 ## Palette.ini
 
-The `Palette.ini` file (located in `Saved/Config/WindowsNoEditor/`) controls the HUD colors. A Digital Parasite version was tested but reverted to the original as the HUD was too dark. You can manually edit it using the values below:
+The `Palette.ini` file (located in `Saved/Config/WindowsNoEditor/`) controls the HUD colors. A Digital Parasite version is included in this folder — copy it to `Saved/Config/WindowsNoEditor/Palette.ini` to apply.
 
 | Key | BGRA | Color |
 | --- | --- | --- |

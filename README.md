@@ -10,7 +10,7 @@ A collection of themes and configuration files for my Windows environment, built
 | --- | --- | --- |
 | 🎨 [Discord](./Discord) | Digital Parasite Discord theme | CSS theme based on system24 by [refact0r](https://github.com/refact0r/system24) |
 | 🎥 [OBS Studio](./OBS-Studio) | Digital Parasite OBS theme | `DigitalParasite.ovt` |
-| ⚡ [Windhawk](./Windhawk) | Nine mod configurations | Files are stored directly in `Windhawk/` |
+| ⚡ [Windhawk](./Windhawk) | Eleven mod configurations | Files are stored directly in `Windhawk/` |
 | 🐚 [Nilesoft Shell](./Nilesoft%20Shell) | Digital Parasite shell theme | `theme.nss` |
 | 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
 | 📟 [YASB (Okinami)](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` — [Source: MrDLingters/Okinami_YASB](https://github.com/MrDLingters/Okinami_YASB) |
