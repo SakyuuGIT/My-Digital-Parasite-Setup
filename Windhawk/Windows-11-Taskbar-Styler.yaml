@@ -87,7 +87,7 @@ controlStyles:
     styles:
       - Fill=#ff2d7a
       - Height=1
-      - VerticalAlignment=Top
+      - VerticalAlignment=Bottom
   - target: Taskbar.SearchBoxButton#SearchBoxButton > Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - Background@ActiveNormal_SearchIcon=#26ff2d7a
