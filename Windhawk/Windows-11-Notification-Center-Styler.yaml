@@ -2,7 +2,7 @@ theme: Borderless
 styleConstants:
   - CommonBgBrush=#0a0a12
   - 'Text = #e8e6f0'
-  - 'SubText = #6b6880'
+  - 'SubText = #a8a6bc'
   - 'BG = #0a0a12'
   - 'BG2 = #12121f'
   - 'Border = #12121f'
