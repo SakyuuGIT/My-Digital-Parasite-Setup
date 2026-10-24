@@ -182,7 +182,7 @@
     --accentText: #0a0a12;
     --hover: #39ff88;
     --mutedBG: #0d0d18;
-    --border: #ff2d7a;
+    --border: #2a2a3f;
     --redFlash: #ff2d7a;
     --subtext: #6b6880;
 
@@ -248,8 +248,6 @@
 .yasb-bar {
     background-color: var(--background);
     padding: 0px 14px;
-    border-bottom: 1px solid #ff2d7a;
-    border-radius: var(--border-radius);
 }
 
 .yasb-bar.adaptive {
@@ -258,8 +256,8 @@
      -qproperty-grouppadding: 16;
      -qproperty-islands: true;
      -qproperty-edgeradius: 22;
-     -qproperty-borderwidth: 0;
-     -qproperty-bordercolor: #ff2d7a;
+     -qproperty-borderwidth: 1;
+     -qproperty-bordercolor: var(--border);
 }
 
 /* Tooltip */
@@ -288,7 +286,7 @@
 }
 .context-menu {
     border-radius: var(--border-radius);
-    border: 1px solid #ff2d7a;
+    border: 1px solid var(--border);
 }
 .context-menu::right-arrow {
     width: 8px;
