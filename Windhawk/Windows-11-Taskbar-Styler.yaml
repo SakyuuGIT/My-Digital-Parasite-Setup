@@ -8,16 +8,16 @@ controlStyles:
   - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - Background@ActiveNormal=#26ff2d7a
-      - Background@ActivePointerOver=#6b6880
+      - Background@ActivePointerOver=#a8a6bc
       - Background@ActivePressed=#46ffd93d
-      - Background@InactivePointerOver=#42f0c6c6
+      - Background@InactivePointerOver=#42ff2d7a
       - Background@InactivePressed=#46ffd93d
       - Background@MultiWindowActive=#42ff2d7a
       - Background@MultiWindowPointerOver=#42ff2d7a
       - BorderBrush@ActiveNormal=#82ff2d7a
       - BorderBrush@ActivePointerOver=#ff2d7a
       - BorderBrush@ActivePressed=#d2ffd93d
-      - BorderBrush@InactivePointerOver=#d2f0c6c6
+      - BorderBrush@InactivePointerOver=#d2ff2d7a
       - BorderBrush@InactivePressed=#d2ffd93d
       - BorderBrush@MultiWindowActive=#ff2d7a
       - BorderBrush@MultiWindowPointerOver=#ff2d7a
@@ -30,12 +30,12 @@ controlStyles:
       - Background@ActivePointerOver=#42ff2d7a
       - Background@ActivePressed=#46ffd93d
       - Background@InactiveNormal=#0a0a12
-      - Background@InactivePointerOver=#42f0c6c6
+      - Background@InactivePointerOver=#42ff2d7a
       - Background@InactivePressed=#46ffd93d
       - BorderBrush@ActiveNormal=#82ff2d7a
       - BorderBrush@ActivePointerOver=#ff2d7a
       - BorderBrush@ActivePressed=#d2ffd93d
-      - BorderBrush@InactivePointerOver=#d2f0c6c6
+      - BorderBrush@InactivePointerOver=#d2ff2d7a
       - BorderBrush@InactivePressed=#d2ffd93d
       - BorderThickness=1
       - CornerRadius=5
@@ -60,7 +60,7 @@ controlStyles:
       - Foreground=#e8e6f0
   - target: Windows.UI.Xaml.Controls.TextBlock[Text=]
     styles:
-      - Foreground=#ff5fa0
+      - Foreground=#ff2d7a
       - Text=
   - target: Border#MultiWindowElement
     styles:
@@ -80,8 +80,8 @@ controlStyles:
       - Foreground=#ff2d7a
   - target: Windows.UI.Xaml.Controls.Grid@CommonStates > Windows.UI.Xaml.Controls.Border#BackgroundBorder
     styles:
-      - Background@PointerOver=#265ee0c6
-      - BorderBrush@PointerOver=#825ee0c6
+      - Background@PointerOver=#2600e5ff
+      - BorderBrush@PointerOver=#8200e5ff
       - BorderThickness=1
   - target: Rectangle#BackgroundStroke
     styles:
@@ -91,12 +91,12 @@ controlStyles:
       - Background@ActiveNormal_SearchIcon=#26ff2d7a
       - Background@ActivePointerOver_SearchIcon=#42ff2d7a
       - Background@ActivePressed_SearchIcon=#46ffd93d
-      - Background@InactivePointerOver_SearchIcon=#42f0c6c6
+      - Background@InactivePointerOver_SearchIcon=#42ff2d7a
       - Background@InactivePressed_SearchIcon=#46ffd93d
       - BorderBrush@ActiveNormal_SearchIcon=#82ff2d7a
       - BorderBrush@ActivePointerOver_SearchIcon=#ff2d7a
       - BorderBrush@ActivePressed_SearchIcon=#d2ffd93d
-      - BorderBrush@InactivePointerOver_SearchIcon=#d2f0c6c6
+      - BorderBrush@InactivePointerOver_SearchIcon=#d2ff2d7a
       - BorderBrush@InactivePressed_SearchIcon=#d2ffd93d
 themeResourceVariables:
   - ''
