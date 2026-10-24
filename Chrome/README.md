@@ -1,36 +1,36 @@
 # Chrome / Edge — Digital Parasite Theme
 
-Thème de navigateur (Chrome / Microsoft Edge) aux couleurs Digital Parasite.
+A browser theme (Chrome / Microsoft Edge) using the Digital Parasite palette.
 
 ## Installation
 
 ### Chrome
-1. Ouvrir `chrome://extensions/`
-2. Activer le **Mode développeur** (en haut à droite)
-3. Cliquer sur **Charger l'extension non empaquetée**
-4. Sélectionner le dossier `Chrome/` de ce repo
+1. Open `chrome://extensions/`
+2. Enable **Developer mode** (top right)
+3. Click **Load unpacked**
+4. Select the `Chrome/` folder from this repo
 
 ### Microsoft Edge
-1. Ouvrir `edge://extensions/`
-2. Activer le **Mode développeur** (en bas à gauche)
-3. Cliquer sur **Charger l'extension non empaquetée**
-4. Sélectionner le dossier `Chrome/` de ce repo
+1. Open `edge://extensions/`
+2. Enable **Developer mode** (bottom left)
+3. Click **Load unpacked**
+4. Select the `Chrome/` folder from this repo
 
-## Couleurs
+## Colors
 
-| Élément | Couleur | Hex |
-|---------|---------|-----|
-| Frame (barre d'onglets) | Fond | `#0a0a12` |
+| Element | Role | Hex |
+|---------|------|-----|
+| Frame (tab bar) | Background | `#0a0a12` |
 | Frame inactive | Panel | `#12121f` |
-| Onglet actif | Texte | `#e8e6f0` |
-| Onglet inactif | Muted | `#6b6880` |
+| Active tab | Text | `#e8e6f0` |
+| Inactive tab | Muted | `#6b6880` |
 | Toolbar | Panel | `#12121f` |
-| Omnibox (barre d'adresse) | Panel | `#12121f` |
-| Page d'accueil (NTP) | Fond | `#0a0a12` |
-| Liens NTP | Rose | `#ff2d7a` |
-| Icônes toolbar | Rose | `#ff2d7a` |
-| Bordures | Bordure | `#2a2a3f` |
+| Omnibox (address bar) | Panel | `#12121f` |
+| New tab page (NTP) | Background | `#0a0a12` |
+| NTP links | Rose | `#ff2d7a` |
+| Toolbar icons | Rose | `#ff2d7a` |
+| Borders | Border | `#2a2a3f` |
 
-## Désinstallation
+## Uninstallation
 
-Retirer l'extension depuis `chrome://extensions/` ou `edge://extensions/`.
+Remove the extension from `chrome://extensions/` or `edge://extensions/`.

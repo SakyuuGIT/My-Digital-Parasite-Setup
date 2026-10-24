@@ -5,8 +5,8 @@ A [Hermes Agent](https://hermes-agent.nousresearch.com/docs) skin based on the D
 ## Installation
 
 1. Copy `digital-parasite.yaml` into your Hermes skins folder:
-   - Windows: `%USERPROFILE%\.hermes\skins\`
-   - Linux/macOS: `~/.hermes/skins/`
+   - Default: `~/.hermes/skins/`
+   - Custom `HERMES_HOME`: `$HERMES_HOME/skins/`
 2. Activate the skin:
    - CLI: `/skin digital-parasite`
    - Or set `display.skin: digital-parasite` in `config.yaml`.
@@ -27,6 +27,8 @@ A [Hermes Agent](https://hermes-agent.nousresearch.com/docs) skin based on the D
 
 ## Notes
 
-The skin is single-mode (dark). Missing values inherit from the default Hermes skin. The `custom_css` block injects Digital Parasite colors into the Hermes Desktop GUI.
+- The skin is single-mode (dark). Missing values inherit from the default Hermes skin.
+- The `custom_css` block injects Digital Parasite colors into the Hermes Desktop GUI (chat background `#0a0a12`, sidebar `#12121f`).
+- Includes a custom spinner with faces `(✨)`, `(🎀)`, `(⚡)` and thinking verbs (pulsing, infecting, glitching, parasiting, morphing, clinking).
 
 Based on the Hermes skin system — see [CONTRIBUTING.md](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#adding-a-skin--theme).
