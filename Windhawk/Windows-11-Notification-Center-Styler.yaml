@@ -146,6 +146,3 @@ controlStyles:
       - Background=$BG2
 themeResourceVariables:
   - ''
-resourceVariables:
-  - variableKey: ''
-    value: ''

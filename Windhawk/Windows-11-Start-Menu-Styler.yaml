@@ -137,6 +137,3 @@ webContentStyles:
     styles:
       - ''
 webContentCustomJs: ''
-resourceVariables:
-  - variableKey: ''
-    value: ''
