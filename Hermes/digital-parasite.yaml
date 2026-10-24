@@ -2,6 +2,9 @@ name: digital-parasite
 description: Digital Parasite — neon rose & green theme inspired by Capri from Cyberpunk Edgerunners 2
 
 colors:
+  background: "#0a0a12"
+  foreground: "#e8e6f0"
+  primary: "#ff2d7a"
   banner_border: "#2a2a3f"
   banner_title: "#ff2d7a"
   banner_accent: "#39ff88"
