@@ -18,7 +18,8 @@ A collection of themes and configuration files for my Windows environment, built
 | YASB (Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` |
 | Hermes | Hermes Agent skin | `digital-parasite.yaml` |
 | Chrome / Edge | Browser theme (Manifest V3) | `manifest.json` |
-| Visual Studio Code | VS Code color customizations | `settings.json` |
+| 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
+| 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
 
 ## About Digital Parasite
 
