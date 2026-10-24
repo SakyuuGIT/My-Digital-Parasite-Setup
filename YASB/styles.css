@@ -248,6 +248,8 @@
 .yasb-bar {
     background-color: var(--background);
     padding: 0px 14px;
+    border: 1px solid #ff2d7a;
+    border-radius: var(--border-radius);
 }
 
 .yasb-bar.adaptive {
@@ -286,7 +288,7 @@
 }
 .context-menu {
     border-radius: var(--border-radius);
-    border: 1px solid var(--border);
+    border: 1px solid #ff2d7a;
 }
 .context-menu::right-arrow {
     width: 8px;
