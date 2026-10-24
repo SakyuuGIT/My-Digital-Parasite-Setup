@@ -11,7 +11,7 @@ bars:
     - '*'
     class_name: yasb-bar
     alignment:
-      position: bottom
+      position: top
       align: center
     animation:
       enabled: true

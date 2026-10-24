@@ -198,7 +198,7 @@
 .yasb-bar {
     background-color: var(--background);
     padding: 0px 14px;
-    border-top: 1px solid #ff2d7a;
+    border-bottom: 1px solid #ff2d7a;
 }
 
 /* Tooltip */
