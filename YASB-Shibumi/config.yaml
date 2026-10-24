@@ -289,7 +289,7 @@ widgets:
       label: "<span>\udb83\udc8d</span>"
       change_automatically: false
     # Example path to folder with images. Can be a single string or a list of strings.
-      image_path: "D:\\OneDrive\\Pictures\\Wallpapers\\Themes\\Monochrome" 
+      image_path: "D:/Images/Wallpaper YASB/Digital Parasite"
       engine:
         enabled: true
         animation: "slide_top" # circle/slide_top/diamond/split
