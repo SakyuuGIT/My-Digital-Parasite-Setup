@@ -8,16 +8,16 @@ A collection of themes and configuration files for my Windows environment, built
 
 | Application | Included content | Details |
 | --- | --- | --- |
-| Discord | Digital Parasite Discord theme | CSS theme based on system24 by [refact0r](https://github.com/refact0r/system24) |
-| OBS Studio | Digital Parasite OBS theme | `DigitalParasite.ovt` |
-| Windhawk | Nine mod configurations | Files are stored directly in `Windhawk/` |
-| Nilesoft Shell | Digital Parasite shell theme | `theme.nss` |
-| Windows Terminal | Windows Terminal settings and color scheme | `settings.json` |
-| YASB (Okinami) | Okinami-based YASB bar | `config.yaml` + `styles.css` |
-| YASB (Akira) | i3WM-inspired YASB bar (square, no rounding) | `config.yaml` + `styles.css` |
-| YASB (Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` |
-| Hermes | Hermes Agent skin | `digital-parasite.yaml` |
-| Chrome / Edge | Browser theme (Manifest V3) | `manifest.json` |
+| 🎨 [Discord](./Discord) | Digital Parasite Discord theme | CSS theme based on system24 by [refact0r](https://github.com/refact0r/system24) |
+| 🎥 [OBS Studio](./OBS-Studio) | Digital Parasite OBS theme | `DigitalParasite.ovt` |
+| ⚡ [Windhawk](./Windhawk) | Nine mod configurations | Files are stored directly in `Windhawk/` |
+| 🐚 [Nilesoft Shell](./Nilesoft%20Shell) | Digital Parasite shell theme | `theme.nss` |
+| 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
+| 📟 [YASB (Okinami)](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` |
+| 📟 [YASB (Akira)](./YASB-Akira) | i3WM-inspired YASB bar (square, no rounding) | `config.yaml` + `styles.css` |
+| 📟 [YASB (Shibumi)](./YASB-Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` |
+| 🤖 [Hermes](./Hermes) | Hermes Agent skin | `digital-parasite.yaml` |
+| 🌐 [Chrome / Edge](./Chrome) | Browser theme (Manifest V3) | `manifest.json` |
 | 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
 | 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
