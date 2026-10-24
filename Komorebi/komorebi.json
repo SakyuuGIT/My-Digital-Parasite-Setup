@@ -14,7 +14,7 @@
   "border_offset": -1,
   "mouse_follows_focus": false,
   "animation": {
-    "enabled": true,
+    "enabled": false,
     "duration": 320,
     "fps": 320,
     "style": {
@@ -34,15 +34,15 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "BSP"
+          "layout": "RightMainVerticalStack"
         },
         {
           "name": "II",
-          "layout": "BSP"
+          "layout": "RightMainVerticalStack"
         },
         {
           "name": "III",
-          "layout": "BSP"
+          "layout": "RightMainVerticalStack"
         }
       ]
     },
