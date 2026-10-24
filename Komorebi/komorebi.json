@@ -34,15 +34,15 @@
       "workspaces": [
         {
           "name": "I",
-          "layout": "RightMainVerticalStack"
+          "layout": "BSP"
         },
         {
           "name": "II",
-          "layout": "RightMainVerticalStack"
+          "layout": "BSP"
         },
         {
           "name": "III",
-          "layout": "RightMainVerticalStack"
+          "layout": "BSP"
         }
       ]
     },
