@@ -1,0 +1,23 @@
+{
+  "name": "DigitalParasite",
+  "black": "#0a0a12",
+  "red": "#ff2d7a",
+  "green": "#39ff88",
+  "yellow": "#ffd93d",
+  "blue": "#00e5ff",
+  "purple": "#ff2d7a",
+  "cyan": "#00e5ff",
+  "white": "#e8e6f0",
+  "brightBlack": "#6b6880",
+  "brightRed": "#ff5fa0",
+  "brightGreen": "#6cffaa",
+  "brightYellow": "#ffe566",
+  "brightBlue": "#33eeff",
+  "brightPurple": "#ff5fa0",
+  "brightCyan": "#33eeff",
+  "brightWhite": "#ffffff",
+  "background": "#0a0a12",
+  "foreground": "#e8e6f0",
+  "cursorColor": "#39ff88",
+  "selectionBackground": "#ff2d7a"
+}
