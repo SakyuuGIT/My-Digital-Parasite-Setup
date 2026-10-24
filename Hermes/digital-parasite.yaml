@@ -1,0 +1,70 @@
+name: digital-parasite
+description: Digital Parasite — neon rose & green theme inspired by Capri from Cyberpunk Edgerunners 2
+
+colors:
+  banner_border: "#2a2a3f"
+  banner_title: "#ff2d7a"
+  banner_accent: "#39ff88"
+  banner_dim: "#6b6880"
+  banner_text: "#e8e6f0"
+  ui_accent: "#ff2d7a"
+  ui_label: "#39ff88"
+  ui_ok: "#39ff88"
+  ui_error: "#ff2d7a"
+  ui_warn: "#ffd93d"
+  prompt: "#e8e6f0"
+  input_rule: "#2a2a3f"
+  response_border: "#ff2d7a"
+  status_bar_bg: "#12121f"
+  status_bar_text: "#e8e6f0"
+  status_bar_strong: "#ff2d7a"
+  status_bar_dim: "#6b6880"
+  status_bar_good: "#39ff88"
+  status_bar_warn: "#ffd93d"
+  status_bar_bad: "#ff2d7a"
+  status_bar_critical: "#ff2d7a"
+  session_label: "#39ff88"
+  session_border: "#2a2a3f"
+  completion_menu_bg: "#12121f"
+  completion_menu_current_bg: "#2a2a3f"
+  selection_bg: "#2a2a3f"
+  shell_dollar: "#00e5ff"
+  voice_status_bg: "#12121f"
+
+spinner:
+  waiting_faces: ["(✨)", "(🎀)", "(⚡)"]
+  thinking_faces: ["(✨)", "(⚡)", "(🎀)"]
+  thinking_verbs:
+    - "pulsing"
+    - "infecting"
+    - "glitching"
+    - "parasiting"
+    - "morphing"
+    - "clinking"
+  wings:
+    - ["⟪✨", "✨⟫"]
+
+branding:
+  agent_name: "Hermes"
+  welcome: "Welcome to Hermes Agent! Type your message or /help for commands."
+  goodbye: "Goodbye! ✨"
+  response_label: " ✨ Capri "
+  prompt_symbol: "❯"
+  help_header: "(✨) Available Commands"
+
+tool_prefix: "╎"
+
+tool_emojis:
+  terminal: "⚡"
+  search: "🔍"
+  browser: "🌐"
+  file: "📄"
+
+custom_css: |
+  :root {
+    --dt-primary-solid: #ff2d7a;
+    --dt-accent: #39ff88;
+  }
+  .hermes-chat { background: #0a0a12; color: #e8e6f0; }
+  .hermes-sidebar { background: #12121f; border-color: #2a2a3f; }
+  .hermes-accent { color: #ff2d7a; }
