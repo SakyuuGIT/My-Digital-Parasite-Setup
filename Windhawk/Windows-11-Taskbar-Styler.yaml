@@ -5,6 +5,8 @@ controlStyles:
   - target: Rectangle#BackgroundFill
     styles:
       - Fill=#0a0a12
+      - Stroke=#ff2d7a
+      - StrokeThickness=1
   - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - Background@ActiveNormal=#26ff2d7a
