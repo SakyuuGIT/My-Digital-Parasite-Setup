@@ -259,7 +259,7 @@
      -qproperty-islands: true;
      -qproperty-edgeradius: 22;
      -qproperty-borderwidth: 1;
-     -qproperty-bordercolor: var(--border);
+     -qproperty-bordercolor: #ff2d7a;
 }
 
 /* Tooltip */
