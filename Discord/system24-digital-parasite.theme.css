@@ -68,7 +68,7 @@ body {
     --small-user-panel: on; /* off: default user panel, on: smaller user panel like in old discord */
 
     /* unrounding options */
-    --unrounding: off; /* off: default, on: remove rounded corners from panels */
+    --unrounding: on; /* off: default, on: remove rounded corners from panels */
     --round-pfp: off; /* off: square profile pictures, on: rounded profile pictures (Discord default) */
     --remove-pfp-decor: off; /* off: default, on: remove profile picture decorations */
 
