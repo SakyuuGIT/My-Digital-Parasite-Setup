@@ -13,6 +13,7 @@ A collection of themes and configuration files for my Windows environment, built
 | ⚡ [Windhawk](./Windhawk) | Nine mod configurations | Files are stored directly in `Windhawk/` |
 | 🐚 [Nilesoft Shell](./Nilesoft%20Shell) | Digital Parasite shell theme | `theme.nss` |
 | 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
+| 📟 [YASB](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | Instructions for the official color theme | Select the Digital Parasite flavor |
 
 ## 🎨 About Digital Parasite
@@ -36,6 +37,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Windhawk:** [Official website](https://windhawk.net/)
 - **Nilesoft Shell:** [Official website](https://www.nilesoft.org/)
 - **Windows Terminal:** [Official website](https://aka.ms/terminal)
+- **YASB / Okinami:** [MrDLingters/Okinami_YASB](https://github.com/MrDLingters/Okinami_YASB) by Darren Lingters — bar structure and color-scheme switching.
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
 
 ## ⚖️ Disclaimer
