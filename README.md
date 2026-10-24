@@ -15,6 +15,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
 | 📟 [YASB](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` |
 | 🤖 [Hermes](./Hermes) | Hermes Agent skin | `digital-parasite.yaml` |
+| 🌐 [Chrome / Edge](./Chrome) | Browser theme (Chrome + Microsoft Edge) | `manifest.json` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | Instructions for the official color theme | Select the Digital Parasite flavor |
 
 ## 🎨 About Digital Parasite
@@ -40,6 +41,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Windows Terminal:** [Official website](https://aka.ms/terminal)
 - **YASB / Okinami:** [MrDLingters/Okinami_YASB](https://github.com/MrDLingters/Okinami_YASB) by Darren Lingters — bar structure and color-scheme switching.
 - **Hermes Agent:** [Official website](https://hermes-agent.nousresearch.com/docs)
+- **Chrome / Edge:** Browser theme via Manifest V3 theme API
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
 
 ## ⚖️ Disclaimer
