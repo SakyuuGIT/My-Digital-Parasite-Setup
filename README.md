@@ -12,6 +12,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 🎥 [OBS Studio](./OBS-Studio) | Digital Parasite OBS theme | `DigitalParasite.ovt` |
 | ⚡ [Windhawk](./Windhawk) | Eleven mod configurations | Files are stored directly in `Windhawk/` |
 | 🐚 [Nilesoft Shell](./Nilesoft%20Shell) | Digital Parasite shell theme | `theme.nss` |
+| 🪟 [Komorebi](./Komorebi) | Tiling WM config + shortcuts | `komorebi.json` + `whkdrc` |
 | 💻 [Windows Terminal](./Powershell) | Windows Terminal settings and color scheme | `settings.json` |
 | 📟 [YASB (Okinami)](./YASB) | Okinami-based YASB bar | `config.yaml` + `styles.css` — [Source: MrDLingters/Okinami_YASB](https://github.com/MrDLingters/Okinami_YASB) |
 | 📟 [YASB (Akira)](./YASB-Akira) | i3WM-inspired YASB bar (square, no rounding) | `config.yaml` + `styles.css` — [Source: AmNweb/Akira_YASB](https://github.com/AmNweb/Akira_YASB) |
