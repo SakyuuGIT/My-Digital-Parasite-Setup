@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "Digital Parasite — Capri",
+  "version": "1.0.0",
+  "description": "Neon rose & green theme inspired by Capri from Cyberpunk: Edgerunners 2. Digital Parasite palette.",
+  "theme": {
+    "colors": {
+      "frame": [10, 10, 18],
+      "frame_inactive": [18, 18, 31],
+      "frame_incognito": [10, 10, 18],
+      "frame_incognito_inactive": [18, 18, 31],
+      "background_tab": [18, 18, 31],
+      "background_tab_text": [107, 104, 128],
+      "tab_text": [232, 230, 240],
+      "tab_background_text": [232, 230, 240],
+      "bookmark_text": [232, 230, 240],
+      "ntp_background": [10, 10, 18],
+      "ntp_text": [232, 230, 240],
+      "ntp_link": [255, 45, 122],
+      "ntp_header": [18, 18, 31],
+      "omnibox_background": [18, 18, 31],
+      "omnibox_text": [232, 230, 240],
+      "toolbar": [18, 18, 31],
+      "toolbar_text": [232, 230, 240],
+      "toolbar_button_icon": [255, 45, 122],
+      "toolbar_field": [18, 18, 31],
+      "toolbar_field_text": [232, 230, 240],
+      "toolbar_field_border": [42, 42, 63],
+      "toolbar_field_focus_background": [10, 10, 18],
+      "toolbar_field_focus_text": [232, 230, 240]
+    },
+    "properties": {
+      "ntp_background_alignment": "center",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
