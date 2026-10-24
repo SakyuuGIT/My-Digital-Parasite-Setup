@@ -1,0 +1,7 @@
+mode: keyboardOnlyFullyHide
+showTemporarilyHotkey: Alt+Escape
+toggleAlwaysShowHotkey: Alt+`
+toggleAlwaysShowMouseEvent: disabled
+showTemporarilyDurationMs: 1000
+winKeyAction: showTaskbarOpenStartIfShown
+oldTaskbarOnWin11: 0

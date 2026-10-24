@@ -1,0 +1,36 @@
+style: cascade
+monitor: cursor
+currentMonitorOnly: 1
+allMonitorsKey: leftOf1
+shortcut: altTab
+winTabStyle: same
+stickyShortcut: 1
+extraShortcuts:
+  - shortcut: none
+    style: same
+animationDuration: 420
+flipSpeed: 100
+showDelay: 90
+showOnSecondTab: 0
+tiltAngle: 30
+stackSpacing: 100
+windowSize: 100
+depth: 100
+maxWindows: 20
+background: blur
+blurAmount: 20
+dimOpacity: 25
+showTitle: 1
+titlePosition: bottom
+shadows: 1
+includeMinimized: 1
+minimizedContent: 1
+virtualDesktops: windows
+managerHiddenWindows: 0
+liveContent: all
+frameRate: screen
+middleClickClose: 1
+closeButton: 1
+hideBars: 1
+excludedApps:
+  - ''
