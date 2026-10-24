@@ -40,7 +40,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 ## Credits and sources
 
 - **Capri / Cyberpunk: Edgerunners 2:** Trigger + CDPR + Netflix, 2026. Voice: Aoi Koga (JP) / Brittany Lauda (EN).
-- **Music:** "Digital Parasite" by Tsuneo Imahori — Capri's theme, built from processed vocal fragments.
+- **Music:** "High Forever (Marlon Hoffstadt Remix)" — Cyberpunk: Edgerunners 2 soundtrack.
 - **Discord system24:** [refact0r/system24](https://github.com/refact0r/system24)
 - **OBS Studio theme:** Based on the Yami Default theme family.
 - **Windhawk:** [Official website](https://windhawk.net/)
