@@ -5,8 +5,6 @@ controlStyles:
   - target: Rectangle#BackgroundFill
     styles:
       - Fill=#0a0a12
-      - Stroke=#ff2d7a
-      - StrokeThickness=1
   - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - Background@ActiveNormal=#26ff2d7a
@@ -87,7 +85,9 @@ controlStyles:
       - BorderThickness=1
   - target: Rectangle#BackgroundStroke
     styles:
-      - Fill=#2a2a3f
+      - Fill=#ff2d7a
+      - Height=1
+      - VerticalAlignment=Top
   - target: Taskbar.SearchBoxButton#SearchBoxButton > Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
     styles:
       - Background@ActiveNormal_SearchIcon=#26ff2d7a
