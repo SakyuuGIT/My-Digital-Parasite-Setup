@@ -18,3 +18,7 @@ wallpapers:
   options:
     image_path: "D:/Images/Wallpaper YASB/Digital Parasite"
 ```
+
+---
+
+Adapted and maintained by **Sakyuu**. Original work by the respective authors credited above.

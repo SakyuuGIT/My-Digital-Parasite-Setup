@@ -34,3 +34,7 @@ A browser theme (Chrome / Microsoft Edge) using the Digital Parasite palette.
 ## Uninstallation
 
 Remove the extension from `chrome://extensions/` or `edge://extensions/`.
+
+---
+
+Adapted and maintained by **Sakyuu**. Original work by the respective authors credited above.
