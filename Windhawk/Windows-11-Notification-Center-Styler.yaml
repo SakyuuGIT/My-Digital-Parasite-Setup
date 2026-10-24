@@ -1,0 +1,151 @@
+theme: Borderless
+styleConstants:
+  - CommonBgBrush=#0a0a12
+  - 'Text = #e8e6f0'
+  - 'SubText = #6b6880'
+  - 'BG = #0a0a12'
+  - 'BG2 = #12121f'
+  - 'Border = #12121f'
+  - CR = 16
+controlStyles:
+  - target: Grid#NotificationCenterGrid
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - BorderBrush=$Border
+  - target: Grid#CalendarCenterGrid
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - BorderBrush=$Border
+  - target: ScrollViewer#CalendarControlScrollViewer
+    styles:
+      - Background=Transparent
+  - target: Border#CalendarHeaderMinimizedOverlay
+    styles:
+      - Background=Transparent
+  - target: ActionCenter.FocusSessionControl#FocusSessionControl > Grid#FocusGrid
+    styles:
+      - Background=Transparent
+  - target: MenuFlyoutPresenter > Border
+    styles:
+      - Background:=<WindhawkBlur BlurAmount="25" TintColor="#00000000"/>
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - Padding=2,4,2,4
+      - BorderBrush=$Border
+  - target: Border#JumpListRestyledAcrylic
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - Margin=-2,-2,-2,-2
+      - BorderBrush=$Border
+  - target: Grid#ControlCenterRegion
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - BorderBrush=$Border
+  - target: Windows.UI.Xaml.Controls.Grid#L1Grid > Border
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: Windows.UI.Xaml.Controls.Grid#MediaTransportControlsRegion
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - BorderBrush=$Border
+  - target: Grid#MediaTransportControlsRoot
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: ContentPresenter#PageContent
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: ContentPresenter#PageContent > Grid > Border
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: QuickActions.ControlCenter.AccessibleWindow#PageWindow > ContentPresenter > Grid#FullScreenPageRoot
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: QuickActions.ControlCenter.AccessibleWindow#PageWindow > ContentPresenter > Grid#FullScreenPageRoot > ContentPresenter#PageHeader
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: ScrollViewer#ListContent
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: ActionCenter.FlexibleToastView#FlexibleNormalToastView
+    styles:
+      - Background:=<SolidColorBrush Color="Transparent"/>
+  - target: Border#ToastBackgroundBorder2
+    styles:
+      - Background:=$CommonBgBrush
+      - BorderThickness=1
+      - CornerRadius=$CR
+      - BorderBrush=#Border
+  - target: JumpViewUI.SystemItemListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
+    styles:
+      - FocusVisualPrimaryThickness=0,0,0,0
+      - FocusVisualSecondaryThickness=0,0,0,0
+  - target: JumpViewUI.JumpListListViewItem > Grid#LayoutRoot > Border#BackgroundBorder
+    styles:
+      - FocusVisualPrimaryThickness=0,0,0,0
+  - target: ActionCenter.FlexibleItemView
+    styles:
+      - CornerRadius=$CR
+  - target: ControlCenter.MediaTransportControls#MediaTransportControls > Windows.UI.Xaml.Controls.Grid#MediaTransportControlsRegion
+    styles:
+      - Height=470
+  - target: Windows.UI.Xaml.Controls.Grid#AlbumTextAndArtContainer
+    styles:
+      - Height=350
+  - target: Windows.UI.Xaml.Controls.Grid#ThumbnailImage
+    styles:
+      - Width=300
+      - Height=300
+      - HorizontalAlignment=Center
+      - VerticalAlignment=Top
+      - Grid.Column=1
+  - target: Windows.UI.Xaml.Controls.Grid#ThumbnailImage > Windows.UI.Xaml.Controls.Border
+    styles:
+      - CornerRadius=$CR
+  - target: Windows.UI.Xaml.Controls.StackPanel#PrimaryAndSecondaryTextContainer
+    styles:
+      - VerticalAlignment=Bottom
+      - Grid.Column=0
+  - target: Windows.UI.Xaml.Controls.StackPanel#PrimaryAndSecondaryTextContainer > Windows.UI.Xaml.Controls.TextBlock#TitleText
+    styles:
+      - TextAlignment=Center
+      - Foreground = $Text
+  - target: Windows.UI.Xaml.Controls.StackPanel#PrimaryAndSecondaryTextContainer > Windows.UI.Xaml.Controls.TextBlock#SubtitleText
+    styles:
+      - TextAlignment=Center
+      - Foreground = $SubText
+  - target: Windows.UI.Xaml.Controls.Grid#WeekDayNames > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground = $Text
+  - target: TextBlock#NotificationsTextBlock
+    styles:
+      - Foreground = $Text
+  - target: Windows.UI.Xaml.Controls.StackPanel#CalendarHeader > Button > Grid > Border > ContentPresenter > TextBlock
+    styles:
+      - Foreground = $Text
+  - target: Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.StackPanel > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground = $Text
+  - target: Windows.UI.Xaml.Controls.FontIcon#Content > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.TextBlock
+    styles:
+      - Foreground = $Text
+  - target: Windows.UI.Xaml.Controls.Button#PlayPauseButton > Windows.UI.Xaml.Controls.ContentPresenter#ContentPresenter@CommonStates
+    styles:
+      - Background@Normal=$BG2
+  - target: Windows.UI.Xaml.Controls.Primitives.Thumb#HorizontalThumb > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Background=$BG2
+themeResourceVariables:
+  - ''
+resourceVariables:
+  - variableKey: ''
+    value: ''

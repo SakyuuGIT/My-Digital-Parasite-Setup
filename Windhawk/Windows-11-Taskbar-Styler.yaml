@@ -1,0 +1,104 @@
+theme: ''
+styleConstants:
+  - ''
+controlStyles:
+  - target: Rectangle#BackgroundFill
+    styles:
+      - Fill=#0a0a12
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - Background@ActiveNormal=#26ff2d7a
+      - Background@ActivePointerOver=#6b6880
+      - Background@ActivePressed=#46ffd93d
+      - Background@InactivePointerOver=#42f0c6c6
+      - Background@InactivePressed=#46ffd93d
+      - Background@MultiWindowActive=#42ff2d7a
+      - Background@MultiWindowPointerOver=#42ff2d7a
+      - BorderBrush@ActiveNormal=#82ff2d7a
+      - BorderBrush@ActivePointerOver=#ff2d7a
+      - BorderBrush@ActivePressed=#d2ffd93d
+      - BorderBrush@InactivePointerOver=#d2f0c6c6
+      - BorderBrush@InactivePressed=#d2ffd93d
+      - BorderBrush@MultiWindowActive=#ff2d7a
+      - BorderBrush@MultiWindowPointerOver=#ff2d7a
+      - BorderThickness=1
+      - CornerRadius=5
+      - Margin@MultiWindowActive=0
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - Background@ActiveNormal=#26ff2d7a
+      - Background@ActivePointerOver=#42ff2d7a
+      - Background@ActivePressed=#46ffd93d
+      - Background@InactiveNormal=#0a0a12
+      - Background@InactivePointerOver=#42f0c6c6
+      - Background@InactivePressed=#46ffd93d
+      - BorderBrush@ActiveNormal=#82ff2d7a
+      - BorderBrush@ActivePointerOver=#ff2d7a
+      - BorderBrush@ActivePressed=#d2ffd93d
+      - BorderBrush@InactivePointerOver=#d2f0c6c6
+      - BorderBrush@InactivePressed=#d2ffd93d
+      - BorderThickness=1
+      - CornerRadius=5
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - 'Background=\ #0a0a12'
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Rectangle#RunningIndicator
+    styles:
+      - Fill=#ff2d7a
+      - Fill@ActiveNormal=#ff2d7a
+      - Fill@ActivePointerOver=#ff2d7a
+      - Fill@MultiWindowActive=#ff2d7a
+      - Fill@MultiWindowPointerOver=#ff2d7a
+  - target: TextBlock#TimeInnerTextBlock
+    styles:
+      - Foreground=#ffd93d
+  - target: TextBlock#DateInnerTextBlock
+    styles:
+      - Foreground=#e8e6f0
+  - target: SystemTray.AdaptiveTextBlock > TextBlock
+    styles:
+      - Foreground=#e8e6f0
+  - target: Windows.UI.Xaml.Controls.TextBlock[Text=]
+    styles:
+      - Foreground=#ff5fa0
+      - Text=
+  - target: Border#MultiWindowElement
+    styles:
+      - Height=0
+      - Padding=0
+  - target: Grid
+    styles:
+      - RequestedTheme=2
+  - target: MenuFlyoutPresenter
+    styles:
+      - Background=#12121f
+  - target: Border#OverflowFlyoutBackgroundBorder
+    styles:
+      - Background=#12121f
+  - target: SystemTray.OmniButton#NotificationCenterButton > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.ContentPresenter > Windows.UI.Xaml.Controls.ItemsPresenter > Windows.UI.Xaml.Controls.StackPanel > Windows.UI.Xaml.Controls.ContentPresenter > SystemTray.IconView > Windows.UI.Xaml.Controls.Grid#ContainerGrid > Windows.UI.Xaml.Controls.Grid#ContentGrid > SystemTray.TextIconContent > Windows.UI.Xaml.Controls.Grid#ContainerGrid > SystemTray.AdaptiveTextBlock > TextBlock#InnerTextBlock
+    styles:
+      - Foreground=#ff2d7a
+  - target: Windows.UI.Xaml.Controls.Grid@CommonStates > Windows.UI.Xaml.Controls.Border#BackgroundBorder
+    styles:
+      - Background@PointerOver=#265ee0c6
+      - BorderBrush@PointerOver=#825ee0c6
+      - BorderThickness=1
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Fill=#2a2a3f
+  - target: Taskbar.SearchBoxButton#SearchBoxButton > Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - Background@ActiveNormal_SearchIcon=#26ff2d7a
+      - Background@ActivePointerOver_SearchIcon=#42ff2d7a
+      - Background@ActivePressed_SearchIcon=#46ffd93d
+      - Background@InactivePointerOver_SearchIcon=#42f0c6c6
+      - Background@InactivePressed_SearchIcon=#46ffd93d
+      - BorderBrush@ActiveNormal_SearchIcon=#82ff2d7a
+      - BorderBrush@ActivePointerOver_SearchIcon=#ff2d7a
+      - BorderBrush@ActivePressed_SearchIcon=#d2ffd93d
+      - BorderBrush@InactivePointerOver_SearchIcon=#d2f0c6c6
+      - BorderBrush@InactivePressed_SearchIcon=#d2ffd93d
+themeResourceVariables:
+  - ''
+clickThroughTaskbar: 0
+xamlDiagnosticsHandling: ''

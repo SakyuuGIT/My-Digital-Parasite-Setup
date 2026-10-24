@@ -1,0 +1,9 @@
+iconTheme: Catppuccin Mocha|themes/icons/niivu/Catppuccin%20Mocha.zip
+disableThumbnails: 1
+allResourceRedirect: 0
+themePaths:
+  - ''
+redirectionResourcePaths:
+  - original: ''
+    redirect: ''
+themeFolder: ''

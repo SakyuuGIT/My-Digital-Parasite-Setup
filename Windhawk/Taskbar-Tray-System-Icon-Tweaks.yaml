@@ -1,0 +1,12 @@
+hideVolumeIcon: 1
+hideNetworkIcon: 1
+hideBatteryIcon: 1
+grayscaleBatteryIcon: 0
+hideMicrophoneIcon: 1
+hideGeolocationIcon: 1
+hideStudioEffectsIcon: 1
+hideRecallIcon: 1
+hideLanguageBar: 1
+hideLanguageSupplementaryIcons: 1
+hideBellIcon: never
+showDesktopButtonWidth: 12
