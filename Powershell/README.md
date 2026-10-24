@@ -40,3 +40,7 @@ Windows Terminal color scheme and settings for the Digital Parasite palette.
 | Bright Magenta | `#ff5fa0` |
 | Bright Cyan | `#33eeff` |
 | Bright White | `#ffffff` |
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

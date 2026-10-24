@@ -32,3 +32,7 @@ A [Hermes Agent](https://hermes-agent.nousresearch.com/docs) skin based on the D
 - Includes a custom spinner with faces `(✨)`, `(🎀)`, `(⚡)` and thinking verbs (pulsing, infecting, glitching, parasiting, morphing, clinking).
 
 Based on the Hermes skin system — see [CONTRIBUTING.md](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#adding-a-skin--theme).
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

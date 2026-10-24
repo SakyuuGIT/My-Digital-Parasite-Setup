@@ -34,3 +34,7 @@ A Nilesoft Shell theme using the Digital Parasite palette. Includes a rose borde
 
 - The theme includes a rose border (`#ff2d7a`) around context menus.
 - Adapted from the Catppuccin Macchiato palette with Digital Parasite colors applied.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

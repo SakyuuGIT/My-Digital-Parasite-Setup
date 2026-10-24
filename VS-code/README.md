@@ -39,3 +39,7 @@ Alternatively, add the following to your `settings.json`:
 ## Notes
 
 The theme is angular, animated, and playful — errors pulse instead of staying static.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

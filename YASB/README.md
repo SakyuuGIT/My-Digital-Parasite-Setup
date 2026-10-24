@@ -40,3 +40,7 @@ This repository also includes two additional YASB variants based on the Digital 
 - **[YASB-Shibumi](../YASB-Shibumi)** — Hyprland-inspired layout.
 
 Based on Okinami by MrDLingters (Darren Lingters), credited in the main repository README.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

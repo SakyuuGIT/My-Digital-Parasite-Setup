@@ -43,3 +43,7 @@ An [Obsidian](https://obsidian.md/) theme based on [Cyberpunk](https://github.co
 
 - **Cyberpunk theme:** [nxxxsooo/obsidian-cyberpunk-theme](https://github.com/nxxxsooo/obsidian-cyberpunk-theme)
 - **Original Typora theme:** channingwalton
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

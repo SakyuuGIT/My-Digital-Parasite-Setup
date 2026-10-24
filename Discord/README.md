@@ -35,3 +35,7 @@ A Discord theme based on [system24](https://github.com/refact0r/system24) by ref
 
 - Unrounded corners (`--unrounding: on`) for a sharp, angular look.
 - Based on system24 by refact0r.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

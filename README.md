@@ -54,3 +54,9 @@ Some themes load stylesheets or other resources from their upstream projects, so
 ## Disclaimer
 
 This is a personal collection of themes and configuration files. All third-party software, themes, assets, and source code remain the property of their respective authors. Refer to the upstream projects and their licenses for applicable terms.
+
+## 👤 Author
+
+**Mattis Wattgen (Sakyuu)** — adaptation, recoloring, integration, and maintenance of this collection.
+
+All modifications, color adaptations, and integrations in this repository are the work of Sakyuu. Original themes and assets remain the property of their respective authors (credited above). Licensed under MIT.

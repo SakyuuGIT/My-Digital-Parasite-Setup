@@ -27,3 +27,7 @@ A [YASB](https://github.com/amnweb/yasb) bar based on the [Shibumi](https://gith
 - Adjust `image_path` in `config.yaml` to point to your wallpaper folder.
 
 Based on Shibumi by AmNweb, recolored with the Digital Parasite palette.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.

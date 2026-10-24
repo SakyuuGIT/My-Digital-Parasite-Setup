@@ -43,3 +43,7 @@ Nine [Windhawk](https://windhawk.net/) mod configurations themed with the Digita
 - The Taskbar Styler mod expects the taskbar to be positioned at the **top** of the screen. The rose border is rendered at the bottom of the taskbar bar.
 - The Resource Redirect mod does not include icon files. Download an icon theme (e.g. [Sweet Paranoia](https://github.com/niivu/resource-redirect-icon-themes)) and point the mod to it.
 - Mod configurations were adapted from the Catppuccin Macchiato palette with Digital Parasite colors applied.
+
+---
+
+Adapted and maintained by **Mattis Wattgen (Sakyuu)**. Original work by the respective authors credited above.
