@@ -18,6 +18,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 📟 [YASB (Shibumi)](./YASB-Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` — [Source: AmNweb/Shibumi_YASB](https://github.com/AmNweb/Shibumi_YASB) |
 | 🤖 [Hermes](./Hermes) | Hermes Agent skin | `digital-parasite.yaml` |
 | 🌐 [Chrome / Edge](./Chrome) | Browser theme (Manifest V3) | `manifest.json` |
+| 🌙 [Dark Reader](./Dark-Reader) | Dark Reader settings (JSON) | `digital-parasite-darkreader.json` |
 | 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
 | 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
 | 🎯 [Kovaak's](./Kovaak) | Kovaak's aim trainer theme | `! Sakyuu - Digital Parasite.json` |
