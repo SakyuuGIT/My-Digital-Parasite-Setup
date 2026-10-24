@@ -248,7 +248,7 @@
 .yasb-bar {
     background-color: var(--background);
     padding: 0px 14px;
-    border: 1px solid #ff2d7a;
+    border-bottom: 1px solid #ff2d7a;
     border-radius: var(--border-radius);
 }
 
@@ -258,7 +258,7 @@
      -qproperty-grouppadding: 16;
      -qproperty-islands: true;
      -qproperty-edgeradius: 22;
-     -qproperty-borderwidth: 1;
+     -qproperty-borderwidth: 0;
      -qproperty-bordercolor: #ff2d7a;
 }
 
