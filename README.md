@@ -18,6 +18,7 @@ A collection of themes and configuration files for my Windows environment, built
 | YASB (Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` |
 | Hermes | Hermes Agent skin | `digital-parasite.yaml` |
 | Chrome / Edge | Browser theme (Manifest V3) | `manifest.json` |
+| 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
 | 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
 
@@ -46,6 +47,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **YASB / Akira:** [AmNweb/Akira_YASB](https://github.com/AmNweb/Akira_YASB) — i3WM-inspired layout.
 - **YASB / Shibumi:** [AmNweb/Shibumi_YASB](https://github.com/AmNweb/Shibumi_YASB) — Hyprland-inspired layout.
 - **Hermes Agent:** [Official website](https://hermes-agent.nousresearch.com/docs)
+- **Obsidian Cyberpunk theme:** [nxxxsooo/obsidian-cyberpunk-theme](https://github.com/nxxxsooo/obsidian-cyberpunk-theme)
 - **Chrome / Edge:** Browser theme via Manifest V3 theme API.
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
 
