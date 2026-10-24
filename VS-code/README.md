@@ -2,16 +2,18 @@
 
 Instructions for using the Digital Parasite color theme in Visual Studio Code.
 
-## Installation
+## Installation (manual)
+
+This repository provides a `settings.json` with the Digital Parasite color customizations. To apply them:
 
 1. Open VS Code.
-2. Go to **Extensions** (`Ctrl + Shift + X`).
-3. Search for **Digital Parasite** (or install the theme from this repository).
-4. Select **Digital Parasite** as your color theme (`Ctrl + K, Ctrl + T`).
+2. Open the Command Palette (`Ctrl + Shift + P`) and select **Preferences: Open User Settings (JSON)**.
+3. Merge the contents of `settings.json` from this folder into your `settings.json`.
+4. Reload VS Code if needed.
 
 ## Manual setup
 
-If you prefer to configure manually, add the following to your `settings.json`:
+Alternatively, add the following to your `settings.json`:
 
 ```json
 {
