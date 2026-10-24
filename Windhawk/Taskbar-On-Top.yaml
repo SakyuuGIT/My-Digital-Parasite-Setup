@@ -1,0 +1,5 @@
+taskbarLocation: top
+taskbarLocationSecondary: sameAsPrimary
+runningIndicatorsOnTop: 0
+startMenuAnimationAdjust: 0
+useNativeTaskbar: 1
