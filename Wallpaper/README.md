@@ -12,6 +12,8 @@ Wallpapers for the Digital Parasite theme. Place them in your wallpaper folder a
 | `Capri 3.png` | Digital Parasite wallpaper |
 | `Capri 4.jpg` | Digital Parasite wallpaper |
 | `Capri 5.jpg` | Digital Parasite wallpaper |
+| `Capri 6.jpeg` | Digital Parasite wallpaper |
+| `Capri 7.jpeg` | Digital Parasite wallpaper |
 
 ## YASB Integration
 
