@@ -25,6 +25,12 @@ A collection of themes and configuration files for my Windows environment, built
 | 🎯 [Kovaak's](./Kovaak) | Kovaak's aim trainer theme | `! Sakyuu - Digital Parasite.json` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
 
+## Preview
+
+🎥 **Video showcase:** [Digital Parasite — Windows 11 Ricing (Cyberpunk Capri Theme)](https://youtu.be/f5J7ooDcHkk)
+
+[![Digital Parasite - Windows 11 Ricing](https://i.ytimg.com/vi/f5J7ooDcHkk/maxresdefault.jpg)](https://youtu.be/f5J7ooDcHkk)
+
 ## About Digital Parasite
 
 Digital Parasite is a dark, high-contrast color palette inspired by Capri, the engram from *Cyberpunk: Edgerunners 2*. The name comes from **"Digital Parasite"**, the theme song of Capri composed by Tsuneo Imahori — a track built from processed vocal fragments that perfectly captures the angular, energetic, and slightly unsettling aesthetic of the character.
