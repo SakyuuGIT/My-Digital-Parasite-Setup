@@ -1,6 +1,6 @@
 # Steam Digital Parasite Theme
 
-A **Millennium** theme for the Steam client, inspired by **Capri** from *Cyberpunk: Edgerunners*. Neon rose & green on a deep dark background — a cyberpunk aesthetic for your Steam library.
+A **Millennium** theme for the Steam client, inspired by **Capri** from *Cyberpunk: Edgerunners 2*. Neon rose & green on a deep dark background — a cyberpunk aesthetic for your Steam library.
 
 ![Digital Parasite Theme](screenshot.png)
 
@@ -25,7 +25,7 @@ This theme is built on top of **[Simple Dark.](https://github.com/shdwmtr/simply
 
 1. Install **[Millennium](https://steambrew.app/)** (the Steam modding framework).
 2. Close Steam completely.
-3. Copy the `DigitalParasite` folder into your Steam installation:
+3. Copy the contents of the `Steam` folder into a new folder named `DigitalParasite` in your Steam installation:
    ```
    Steam/millennium/themes/DigitalParasite/
    ```
@@ -54,7 +54,7 @@ The theme inherits Simple Dark's customization options (compacted header, wallet
 ## Credits
 
 - **[Simple Dark.](https://github.com/shdwmtr/simply-dark)** by ShadowMonster — base CSS structure
-- **Digital Parasite** concept by Sakyuu — color palette inspired by Capri (Cyberpunk: Edgerunners)
+- **Digital Parasite** concept by Sakyuu — color palette inspired by Capri (Cyberpunk: Edgerunners 2)
 - **[Millennium](https://github.com/SteamClientHomebrew/Millennium)** — the modding framework
 
 ## License

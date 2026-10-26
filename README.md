@@ -62,7 +62,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Obsidian Cyberpunk theme:** [nxxxsooo/obsidian-cyberpunk-theme](https://github.com/nxxxsooo/obsidian-cyberpunk-theme)
 - **Chrome / Edge:** Browser theme via Manifest V3 theme API.
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
-- **Steam:** Steam client theme (Millennium-based, recolored with Digital Parasite palette)
+- **Steam:** Steam client theme (Millennium-based, recolored with Digital Parasite palette) — based on [Simple Dark.](https://github.com/shdwmtr/simply-dark) by ShadowMonster, powered by [Millennium](https://github.com/SteamClientHomebrew/Millennium)
 - **Kovaak's:** Aim trainer theme (based on the user's existing themes, recolored with Digital Parasite palette)
 
 ## Disclaimer
