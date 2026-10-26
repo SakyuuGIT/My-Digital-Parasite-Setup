@@ -1,0 +1,18 @@
+/* Set default window colors on the Overlay */
+.C9tvuqqEXGcrkcAtHrQ_R, ._27m9Qbg4ShilOgwvYZWV8l {
+    background: radial-gradient(155.42% 100% at 0% 0%, var(--darkergrey) 0 0%, var(--color-darker) 100%) !important;
+}
+
+/* Overview Headers */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL {
+    background: var(--color-light) !important;
+}
+
+/* Item Colors */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._17TJ4vdOZjHL-bjbRUKzxp._3WMiI5PUctRy9VuvX4r5hj, ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-, ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0  {
+    background: var(--color-dark) !important;
+}
+
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva {
+    background: var(--color-light) !important;
+}

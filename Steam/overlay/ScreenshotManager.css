@@ -1,0 +1,26 @@
+/* Set default window colors on the Overlay */
+.C9tvuqqEXGcrkcAtHrQ_R {
+    background: radial-gradient(155.42% 100% at 0% 0%, var(--darkergrey) 0 0%, var(--color-darker) 100%) !important;
+}
+
+._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk {
+    background: var(--color-light) !important;
+}
+
+._1FPJYJrOP3sGOAaFkUKvsa._2WymaTKNIM1vyXh6dWqpnk._2DImOBZViQSVUAGzChzYs7 {
+    background: var(--begrey) !important;
+}
+
+/* Popup Modals */
+.DialogContent._DialogLayout.GenericConfirmDialog._DialogCenterVertically {
+    background: var(--color-dark) !important;
+}
+
+button.DialogButton {
+    background: var(--color-light) !important;
+}
+
+/* No Screenshots Modal Dialog */
+._2lrrNsbFXBpMmd7sl1W8zv {
+    background: var(--color-dark) !important;
+}

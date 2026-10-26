@@ -1,0 +1,143 @@
+@import url(../../titlebar.css);
+
+.chatWindow .chatHeader {
+    min-height: 0px !important;
+}
+.chatTabList>div {
+    margin-left: 7px !important;
+}
+.chatTabSetContainer.inclient {
+    margin-bottom: 7px !important;
+}
+.X2iywwN7fcdh9zXpXVsrk {
+    border-radius: 3px !important;
+}
+
+.titleBarContainer.ChatTabs {
+    background: var(--color-dark) !important;
+}
+
+.X2iywwN7fcdh9zXpXVsrk._1BNlZUYDbVr8VhCTmq7ksk {
+    background-color: var(--color-light) !important;
+}
+
+.displayRow.minHeightZero.Panel.Focusable {
+    background: var(--thegrey) !important;
+}
+
+html.client_chat_frame .chatWindow .chatEntry {
+    padding-right: 0px !important;
+    padding-bottom: 12px
+}
+
+/* .chatentry_chatSubmitButton_1IEiK {
+    min-height: 0px !important;
+}
+.chatentry_chatSubmitButton_1IEiK {
+    max-width: 100px !important;
+    max-height: 40px !important;
+    min-width: 0px !important;
+} */
+
+._1IEiKQnjHpIv-m601y6hvP {
+    min-height: 35px !important;
+    min-width: 35px !important;
+    border: none !important;
+    border-radius: 4px !important;
+}
+    
+._1IEiKQnjHpIv-m601y6hvP._2GM2kkVRqL-SdkG4oQjUzY {
+    background: none !important;
+}
+
+.pewyBQoFSgFWo_Ms99aRm {
+    height: 25px !important;
+    padding: 10px 4px 4px 8px !important;
+}
+
+form._2gP0DqVyb1aEACymAe6if3 {
+    border-radius: 4px !important;
+    background: var(--darkergrey) !important;
+    height: 40px !important;
+    box-shadow: none !important;
+}
+
+.chatEntry.Panel.Focusable {
+    height: 46px !important;
+}
+
+.chatWindow .chatEntry {
+    background: var(--color-dark) !important;
+}
+
+._3grea2u6WuuGLHj9gJFmzY{
+    box-shadow: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+/* Trio chat button */
+button.RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i.Focusable,
+button.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW.Focusable,
+button.VoiceToggle {
+    background: var(--darkergrey);
+    min-height: 40px !important;
+    min-width: 40px !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin-right: 4px;
+    border: none !important;
+    border-radius: 4px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._2WfNoLBdfKwyutA6ho4aSH {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.ChatMessageEntryVoice .buttonsContainer {
+    margin-top: 2px;
+}
+
+button.RVIs84dAE6wHcjH9tkinc.jaQN2IyN4P8LZXJ6P11qy.Focusable{
+    border: none !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) {
+    background: none !important;
+}
+
+.ChatMessageEntryVoice{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    margin: 0 0 0 -2px !important;
+    padding: 0 !important;
+    background: transparent;
+}
+
+.VoiceToggleIconCtn{
+    position: static;
+    top: auto;
+    left: auto;
+}
+
+button.VoiceToggle.Inactive.Focusable {
+    background: var(--darkergrey);
+}
+
+._3Ule3rolhZJiBN4yNNtk1s {
+    background-color: var(--color-darker);
+}
+
+.unreadMessageViolator {
+    border: none !important;
+    z-index: 1;
+}
