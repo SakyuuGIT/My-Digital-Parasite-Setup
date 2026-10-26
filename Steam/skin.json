@@ -1,0 +1,271 @@
+{
+    "Conditions": {
+        "Compacted Header": {
+            "tab": "Window",
+            "description": "Use a more compact header bar on Steam (everything is on 1 row)",
+            "default": "Normal",
+            "values": {
+                "Normal": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "headers/NormalHeader.css"
+                    },
+                    "TargetJs": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "headers/NormalHeader.js"
+                    }
+                },
+                "Compact": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "headers/CompactHeader.css"
+                    },
+                    "TargetJs": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "headers/CompactHeader.js"
+                    }
+                }
+            }
+        },
+        "Native Titlebars": {
+            "tab": "Window",
+            "description": "Use system's native titlebars (minimize, maximize, restore, and close) buttons",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "config/NativeTitlebarVisibility.css"
+                    }
+                }
+            }
+        },
+        "Wallet Visibility": {
+            "tab": "Elements",
+            "description": "Show wallet balance on the top right menu",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Account",
+                            "^Steam$"
+                        ],
+                        "src": "config/WalletVisibility.css"
+                    }
+                }
+            }
+        },
+        "URL Visibility": {
+            "tab": "Elements",
+            "description": "Show URL bar when browsing inside Steam",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "config/URLBarVisibility.css"
+                    }
+                }
+            }
+        },
+        "What's New Visibility": {
+            "tab": "Elements",
+            "description": "Show news and updates on library from the games you own",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "config/WhatsNewVisibility.css"
+                    }
+                }
+            }
+        },
+        "Add Shelf Visibility": {
+            "tab": "Elements",
+            "description": "Show add shelf button",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "config/AddShelfVisibility.css"
+                    }
+                }
+            }
+        },
+        "Friends Status Outline": {
+            "tab": "Elements",
+            "description": "Enable the friends status (online and in-game) indicator in friends tab",
+            "default": "Hide",
+            "values": {
+                "Hide": {},
+                "Show": {
+                    "TargetCss": {
+                        "affects": [
+                            "friendsui-container"
+                        ],
+                        "src": "config/FriendsOutline.css"
+                    }
+                }
+            }
+        },
+        "Steam News Visibility": {
+            "tab": "Elements",
+            "description": "Show 'Steam News' button (megaphone) on top right",
+            "default": "Show",
+            "values": {
+                "Show": {},
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [
+                            "^Steam$"
+                        ],
+                        "src": "config/NewsButtonVisibility.css"
+                    }
+                }
+            }
+        }
+    },
+    "Patches": [
+        {
+            "MatchRegexString": "SteamBrowser_Find",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "^Steam$",
+            "Statement": [
+                {
+                    "Equals": true,
+                    "False": {
+                        "TargetCss": "headers/NormalHeader.css",
+                        "TargetJs": "headers/NormalHeader.js"
+                    },
+                    "If": "Compacted Header",
+                    "True": {
+                        "TargetCss": "headers/CompactHeader.css",
+                        "TargetJs": "headers/CompactHeader.js"
+                    }
+                }
+            ],
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "Shutdown",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "friendsui-container",
+            "TargetCss": "steam/friends/FriendsList.css",
+            "TargetJs": "steam/friends/FriendsList.js"
+        },
+        {
+            "MatchRegexString": "ModalDialogPopup",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": ".*Supernav$",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": ".*Menu$",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": ".*Properties.*",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "Special Offers",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "Steam Big Picture Mode",
+            "TargetCss": "bigpicture.custom.css"
+        },
+        {
+            "MatchRegexString": ".*SP Overlay:.*",
+            "TargetCss": "overlay/Overlay.css"
+        },
+        {
+            "MatchRegexString": "Achievements",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "GameNotes",
+            "TargetCss": "overlay/GameNotes.css"
+        },
+        {
+            "MatchRegexString": "ScreenshotManager",
+            "TargetCss": "overlay/ScreenshotManager.css"
+        },
+        {
+            "MatchRegexString": "GameOverview",
+            "TargetCss": "overlay/GameOverview.css"
+        },
+        {
+            "MatchRegexString": "SoundtrackPlayer",
+            "TargetCss": "Steam.css"
+        },
+        {
+            "MatchRegexString": "OverlayBrowser_(?!.*_Find$).*",
+            "TargetCss": "overlay/Browser.css"
+        },
+        {
+            "MatchRegexString": "OverlayBrowser_.*_Find",
+            "TargetCss": "overlay/Browser.css"
+        },
+        {
+            "MatchRegexString": "OverlayTab\\d+_Find",
+            "TargetCss": "overlay/Browser.css"
+        },
+        {
+            "MatchRegexString": "OverlayBrowser_Browser",
+            "TargetCss": "overlay/Browser.css"
+        }
+    ],
+    "RootColors": "colors.css",
+    "Steam-WebKit": "webkit/webkit.css",
+    "author": "Sakyuu",
+    "description": "Digital Parasite \u2014 neon rose & green theme inspired by Capri from Cyberpunk Edgerunners.",
+    "discord_support": {
+        "inviteCodeExcludingLink": "NcNMP6r2Cw"
+    },
+    "header_image": "https://i.imgur.com/uXtPTnr.png",
+    "name": "Digital Parasite",
+    "splash_image": "https://i.imgur.com/uXtPTnr.png",
+    "tags": [
+        "Cyberpunk",
+        "Neon",
+        "Rose",
+        "Green",
+        "Dark"
+    ],
+    "version": "1.0.0",
+    "github": {
+        "owner": "SakyuuGIT",
+        "repo_name": "steam-digital-parasite-theme"
+    }
+}

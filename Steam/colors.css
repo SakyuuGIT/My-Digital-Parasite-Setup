@@ -1,0 +1,117 @@
+:root {
+    /** 
+    * @name Light Color
+    * @description Button Colors (used in some webkit element)
+    */
+    --color-light: #2a2a3f;
+    /** 
+    * @name Dark Color
+    * @description TitleBar, TitleBar Buttons, Library <div> background, Scrollbar (used in some webkit element)
+    */
+    --color-dark: #12121f;
+    /** 
+    * @name Darker Color
+    * @description Main Background, Library and TitleBar accent (used in some webkit element)
+    */
+    --color-darker: #0a0a12;
+    /** 
+    * @name Darkest Color
+    * @description Low priority accent color (used in some webkit element)
+    */
+    --color-darkest: #0d0d18;
+    /** 
+    * @name Scrollbar Color
+    * @description Webkit scrollbar color
+    */
+    --scrollbar: #ff2d7a;
+    /** 
+    * @name Pure Black
+    * @description Low priority accent color (used in some webkit element)
+    */
+    --black: #000000;
+    /** 
+    * @name Slight Black
+    * @description Webkit colors 
+    */
+    --blacker-ish: #0d0d18;
+    /** 
+    * @name Slightly Darker Black
+    * @description Webkit colors 
+    */
+    --blacker: #0a0a12;
+    /** 
+    * @name Light Grey
+    * @description Webkit colors 
+    */
+    --grey: #2a2a3f;
+    /** 
+    * @name Grey
+    * @description Webkit colors 
+    */
+    --lightgrey: #3a3a55;
+    /** 
+    * @name Light Grey
+    * @description Webkit colors 
+    */
+    --lightergrey: #2a2a3f;
+    /** 
+    * @name Slightly Light Grey
+    * @description Webkit colors 
+    */
+    --grey-ish: #3a3a55;
+    /** 
+    * @name Slightly More Darker Grey
+    * @description Webkit colors 
+    */
+    --darkergrey: #12121f;
+    /** 
+    * @name Slightly A Little More Darker Grey
+    * @description Webkit colors 
+    */
+    --thegrey: #1a0a1f;
+    /** 
+    * @name Darker Grey Than Above but Not Darkest
+    * @description Webkit colors 
+    */
+    --begrey: #1a0a1f;
+     /** 
+    * @name A Slightly Darker Grey Than Above
+    * @description Webkit colors 
+    */
+    --littlegrey: #12121f;
+    /** 
+    * @name Darkest Grey
+    * @description Webkit colors 
+    */
+    --darkgrey: #0d0d18;
+    /** 
+    * @name Darker White
+    * @description Webkit colors 
+    */
+    --darkerwhite: #6b6880;
+    /** 
+    * @name Dark White
+    * @description Webkit colors 
+    */
+    --darkwhite: #e8e6f0;
+    /** 
+    * @name White
+    * @description Webkit colors 
+    */
+    --white: #e8e6f0;
+    /** 
+    * @name Ingame
+    * @description Ingame color
+    */
+    --ingame: #00e5ff;
+    /** 
+    * @name Online
+    * @description Online color
+    */
+    --online: #39ff88;
+    /** 
+    * @name Offline
+    * @description Offline color
+    */
+    --offline: #6b6880;
+}

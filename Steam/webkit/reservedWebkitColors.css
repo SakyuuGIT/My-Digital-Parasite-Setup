@@ -1,0 +1,26 @@
+:root {
+    /*
+    Colors listed here will not show on Millennium theme settings,
+    but used in some parts of the steam app and webkit.
+    */
+    --black-ish: #2a2a3f00;
+    --realblack: #0a0a12;
+    --lightblack: #0a0a12;
+    --bedarkgrey: #0a0a12;
+    --darkblue: #00e5ff;
+    --blue: #00e5ff;
+    --brightblue: #00e5ff;
+    --blu: #00e5ff;
+    --blue-ish: #00e5ff;
+    --blue-er: #00e5ff;
+    --lightblue: #00e5ff;
+    --darkgreen: #39ff88;
+    --green: #39ff88;
+    --gold: #ffd93d;
+    --bronze: #6b6880;
+    --purple: #ff2d7a;
+    --pink: #ff2d7a;
+    --red: #ff2d7a;
+    --orange: #ff2d7a;
+    --yellow: #ffd93d;
+}
