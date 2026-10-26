@@ -13,21 +13,6 @@ A [YASB](https://github.com/amnweb/yasb) bar based on the [Okinami](https://gith
 
 To switch between color schemes, open `styles.css` and leave **one** set of variables uncommented in the `colors` section. The Digital Parasite palette is active by default.
 
-## Palette
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| Background | `#0a0a12` | Bar background |
-| Background 2 | `#12121f` | Panels / popups |
-| Accent | `#ff2d7a` | Primary accent (rose) |
-| Text | `#e8e6f0` | Primary text |
-| Accent Text | `#0a0a12` | Text on accent |
-| Hover | `#39ff88` | Hover state (green) |
-| Muted BG | `#0d0d18` | Muted backgrounds |
-| Border | `#2a2a3f` | Borders |
-| Red Flash | `#ff2d7a` | Alerts / flash |
-| Subtext | `#6b6880` | Secondary text |
-
 ## Notes
 
 The bar uses the `adaptive` style (islands). Adjust `image_path` in `config.yaml` to point to your wallpaper folder.

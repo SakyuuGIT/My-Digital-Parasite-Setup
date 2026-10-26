@@ -34,20 +34,6 @@ Thirteen [Windhawk](https://windhawk.net/) mod configurations themed with the Di
 | Disable rounded corners in Windows 11 | Removes rounded corners from windows |
 | Prevent Edge from lagging your Taskbar process | Blocks Edge from slowing down the taskbar |
 
-## Palette
-
-| Token | Hex |
-| --- | --- |
-| Background | `#0a0a12` |
-| Panel | `#12121f` |
-| Rose | `#ff2d7a` |
-| Green | `#39ff88` |
-| Cyan | `#00e5ff` |
-| Yellow | `#ffd93d` |
-| Text | `#e8e6f0` |
-| Muted | `#6b6880` |
-| Border | `#2a2a3f` |
-
 ## Notes
 
 - The Taskbar Styler mod expects the taskbar to be positioned at the **top** of the screen. The rose border is rendered at the bottom of the taskbar bar.

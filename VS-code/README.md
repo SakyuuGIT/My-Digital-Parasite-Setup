@@ -23,19 +23,6 @@ Alternatively, add the following to your `settings.json`:
 }
 ```
 
-## Palette
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| Background | `#0a0a12` | Editor background |
-| Panel | `#12121f` | Sidebar / panels |
-| Rose | `#ff2d7a` | Keywords / errors |
-| Green | `#39ff88` | Strings / success |
-| Cyan | `#00e5ff` | Functions / info |
-| Yellow | `#ffd93d` | Numbers / warnings |
-| Text | `#e8e6f0` | Primary text |
-| Muted | `#6b6880` | Comments |
-
 ## Notes
 
 The theme is angular, animated, and playful — errors pulse instead of staying static.

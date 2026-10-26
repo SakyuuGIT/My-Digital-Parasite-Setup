@@ -16,23 +16,9 @@ A Nilesoft Shell theme using the Digital Parasite palette. Includes a rose borde
 2. Open Nilesoft Shell settings.
 3. Select **DigitalParasite** as the theme.
 
-## Palette
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| Background | `#0a0a12` | Menu background |
-| Panel | `#12121f` | Submenu background |
-| Rose | `#ff2d7a` | Hover / active / border |
-| Green | `#39ff88` | Success |
-| Cyan | `#00e5ff` | Info |
-| Yellow | `#ffd93d` | Warnings |
-| Text | `#e8e6f0` | Primary text |
-| Muted | `#6b6880` | Secondary text |
-| Border | `#2a2a3f` | Borders |
-
 ## Notes
 
-- The theme includes a rose border (`#ff2d7a`) around context menus.
+- The theme includes a rose border around context menus.
 - Adapted from the Catppuccin Macchiato palette with Digital Parasite colors applied.
 
 ---
