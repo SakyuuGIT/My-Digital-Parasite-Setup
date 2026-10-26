@@ -1,107 +1,107 @@
 {
-  "themeName": "! Sakyuu - Digital Parasite",
-  "wallMaterial": "MARBLE POLISHED",
-  "wallRoughness": 1.0,
-  "wallMetallic": 0.0,
-  "wallFullBright": 1,
-  "wallTint": {
-    "x": 0.0392156862745098,
-    "y": 0.0392156862745098,
-    "z": 0.07058823529411765
-  },
-  "wallTextureScale": 2,
-  "floorMaterial": "BIANCA CARRARA MARBLE TILES",
-  "floorRoughness": 1.0,
-  "floorMetallic": 0.0,
-  "floorFullBright": 1,
-  "floorTint": {
-    "x": 0.0392156862745098,
-    "y": 0.0392156862745098,
-    "z": 0.07058823529411765
-  },
-  "floorTextureScale": 1,
-  "ceilingMaterial": "BIANCA CARRARA MARBLE TILES",
-  "ceilingRoughness": 1.0,
-  "ceilingMetallic": 0.0,
-  "ceilingFullBright": 1,
-  "ceilingTint": {
-    "x": 0.0392156862745098,
-    "y": 0.0392156862745098,
-    "z": 0.07058823529411765
-  },
-  "ceilingTextureScale": 1,
-  "rampMaterial": "MARBLE POLISHED",
-  "rampRoughness": 1.0,
-  "rampMetallic": 0.0,
-  "rampFullBright": 1,
-  "rampTint": {
-    "x": 0.0392156862745098,
-    "y": 0.0392156862745098,
-    "z": 0.07058823529411765
-  },
-  "rampTextureScale": 2,
-  "overrideEnemyHeadColor": true,
-  "overrideEnemyBodyColor": true,
-  "setEnemyBodyColorAsAttackColor": false,
-  "enemyColorRoughness": 0.15,
-  "enemyColorMetallic": 0.0,
-  "enemyColorFullBright": 1,
-  "enemyHeadColor": {
-    "x": 1.0,
-    "y": 0.17647058823529413,
-    "z": 0.47843137254901963
-  },
-  "enemyHeadColorOnHit": {
-    "x": 0.2235294117647059,
-    "y": 1.0,
-    "z": 0.5333333333333333
-  },
-  "enemyHeadColorOnLookAt": {
-    "x": 0.0,
-    "y": 0.8980392156862745,
-    "z": 1.0
-  },
-  "enemyBodyColor": {
-    "x": 1.0,
-    "y": 0.17647058823529413,
-    "z": 0.47843137254901963
-  },
-  "enemyBodyColorOnHit": {
-    "x": 0.2235294117647059,
-    "y": 1.0,
-    "z": 0.5333333333333333
-  },
-  "enemyBodyColorOnLookAt": {
-    "x": 0.0,
-    "y": 0.8980392156862745,
-    "z": 1.0
-  },
-  "changeEnemyColorOnHit": false,
-  "changeEnemyColorOnLookAt": false,
-  "teamGlowUpHead": 1,
-  "teamGlowUpBody": 1,
-  "enemyGlowUpHead": 2,
-  "enemyGlowUpBody": 2,
-  "enemyGlowUpHeadOnHit": 3,
-  "enemyGlowUpBodyOnHit": 3,
-  "enemyGlowUpHeadOnLookAt": 3,
-  "enemyGlowUpBodyOnLookAt": 3,
-  "enemyOutlineWidth": 2,
-  "enemyOutlineSizeThreshold": 0,
-  "enemyOutlineGlow": 2,
-  "enemyOutlineColor": {
-    "x": 1.0,
-    "y": 0.17647058823529413,
-    "z": 0.47843137254901963
-  },
-  "skyPresetId": 0,
-  "cloudCoverId": 0,
-  "solidSkyColor": true,
-  "sunVisible": false,
-  "skyColor": {
-    "b": 18,
-    "g": 10,
-    "r": 10,
-    "a": 255
-  }
+    "themeName": "! Sakyuu - Digital Parasite",
+    "wallMaterial": "CONCRETE BASIC",
+    "wallRoughness": 0.8,
+    "wallMetallic": 0.2,
+    "wallFullBright": 0.3,
+    "wallTint": {
+        "x": 0.07058823529411765,
+        "y": 0.07058823529411765,
+        "z": 0.12156862745098039
+    },
+    "wallTextureScale": 2,
+    "floorMaterial": "CONCRETE BASIC",
+    "floorRoughness": 0.8,
+    "floorMetallic": 0.2,
+    "floorFullBright": 0.3,
+    "floorTint": {
+        "x": 0.07058823529411765,
+        "y": 0.07058823529411765,
+        "z": 0.12156862745098039
+    },
+    "floorTextureScale": 1,
+    "ceilingMaterial": "CONCRETE BASIC",
+    "ceilingRoughness": 0.8,
+    "ceilingMetallic": 0.2,
+    "ceilingFullBright": 0.3,
+    "ceilingTint": {
+        "x": 0.07058823529411765,
+        "y": 0.07058823529411765,
+        "z": 0.12156862745098039
+    },
+    "ceilingTextureScale": 1,
+    "rampMaterial": "CONCRETE BASIC",
+    "rampRoughness": 0.8,
+    "rampMetallic": 0.2,
+    "rampFullBright": 0.3,
+    "rampTint": {
+        "x": 0.07058823529411765,
+        "y": 0.07058823529411765,
+        "z": 0.12156862745098039
+    },
+    "rampTextureScale": 2,
+    "overrideEnemyHeadColor": true,
+    "overrideEnemyBodyColor": true,
+    "setEnemyBodyColorAsAttackColor": false,
+    "enemyColorRoughness": 0.15,
+    "enemyColorMetallic": 0.5,
+    "enemyColorFullBright": 0.4,
+    "enemyHeadColor": {
+        "x": 1.0,
+        "y": 0.17647058823529413,
+        "z": 0.47843137254901963
+    },
+    "enemyHeadColorOnHit": {
+        "x": 0.2235294117647059,
+        "y": 1.0,
+        "z": 0.5333333333333333
+    },
+    "enemyHeadColorOnLookAt": {
+        "x": 0.0,
+        "y": 0.8980392156862745,
+        "z": 1.0
+    },
+    "enemyBodyColor": {
+        "x": 1.0,
+        "y": 0.17647058823529413,
+        "z": 0.47843137254901963
+    },
+    "enemyBodyColorOnHit": {
+        "x": 0.2235294117647059,
+        "y": 1.0,
+        "z": 0.5333333333333333
+    },
+    "enemyBodyColorOnLookAt": {
+        "x": 0.0,
+        "y": 0.8980392156862745,
+        "z": 1.0
+    },
+    "changeEnemyColorOnHit": false,
+    "changeEnemyColorOnLookAt": false,
+    "teamGlowUpHead": 1,
+    "teamGlowUpBody": 1,
+    "enemyGlowUpHead": 3,
+    "enemyGlowUpBody": 3,
+    "enemyGlowUpHeadOnHit": 4,
+    "enemyGlowUpBodyOnHit": 4,
+    "enemyGlowUpHeadOnLookAt": 4,
+    "enemyGlowUpBodyOnLookAt": 4,
+    "enemyOutlineWidth": 2,
+    "enemyOutlineSizeThreshold": 0,
+    "enemyOutlineGlow": 3,
+    "enemyOutlineColor": {
+        "x": 1.0,
+        "y": 0.17647058823529413,
+        "z": 0.47843137254901963
+    },
+    "skyPresetId": 0,
+    "cloudCoverId": 0,
+    "solidSkyColor": false,
+    "sunVisible": true,
+    "skyColor": {
+        "b": 122,
+        "g": 45,
+        "r": 255,
+        "a": 255
+    }
 }
