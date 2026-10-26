@@ -36,7 +36,7 @@ A collection of themes and configuration files for my Windows environment, built
 
 Digital Parasite is a dark, high-contrast color palette inspired by Capri, the engram from *Cyberpunk: Edgerunners 2*. The name comes from **"Digital Parasite"**, the theme song of Capri composed by Tsuneo Imahori — a track built from processed vocal fragments that perfectly captures the angular, energetic, and slightly unsettling aesthetic of the character.
 
-The palette is built around **neon pink (#ff2d7a)** and **neon green (#39ff88)** on a deep dark background (#0a0a12), with cyan (#00e5ff) and yellow (#ffd93d) as accents.
+The palette is built around **neon pink** and **neon green** on a deep dark background, with cyan and yellow as accents.
 
 The goal is to keep colors and overall appearance consistent across supported applications. Individual themes may use their own layout, typography, and customization options. The aesthetic is angular, animated, and playful — a theme that *moves*.
 

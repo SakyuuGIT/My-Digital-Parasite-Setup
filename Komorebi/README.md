@@ -18,17 +18,6 @@
 4. Copy `whkdrc` to `%USERPROFILE%\.config\whkdrc`.
 5. Start Komorebi (`komorebic start`) and whkd (`whkd`).
 
-## Palette
-
-Border colors have been set to Digital Parasite:
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| Single (focused) | `#ff2d7a` | Rose — focused window border |
-| Unfocused | `#6b6880` | Muted — unfocused window border |
-| Floating | `#ff2d7a` | Rose — floating window border |
-| Monocle | `#6b6880` | Muted — monocle window border |
-
 ## Notes
 
 - The `komorebi.bar.json` uses the Base16 "Ashes" palette. You can customize the bar theme to match Digital Parasite by editing the `theme` section.

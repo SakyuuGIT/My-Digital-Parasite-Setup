@@ -17,20 +17,6 @@ A Discord theme based on [system24](https://github.com/refact0r/system24) by ref
 | `system24-digital-parasite.theme.css` | Main theme (unrounded corners, Digital Parasite palette) |
 | `digital-parasite.css` | Legacy CSS (kept for reference) |
 
-## Palette
-
-| Token | Hex | Role |
-| --- | --- | --- |
-| Background | `#0a0a12` | Main background |
-| Panel | `#12121f` | Sidebar / panels |
-| Rose | `#ff2d7a` | Accent / links |
-| Green | `#39ff88` | Success / online |
-| Cyan | `#00e5ff` | Info / mentions |
-| Yellow | `#ffd93d` | Warnings |
-| Text | `#e8e6f0` | Primary text |
-| Muted | `#6b6880` | Secondary text |
-| Border | `#2a2a3f` | Borders |
-
 ## Notes
 
 - Unrounded corners (`--unrounding: on`) for a sharp, angular look.

@@ -4,19 +4,6 @@ A **Millennium** theme for the Steam client, inspired by **Capri** from *Cyberpu
 
 ![Digital Parasite Theme](screenshot.png)
 
-## Palette
-
-| Role | Color |
-|------|-------|
-| Background | `#0a0a12` |
-| Secondary | `#12121f` |
-| Rose (accent) | `#ff2d7a` |
-| Green (accent) | `#39ff88` |
-| Cyan (links) | `#00e5ff` |
-| Yellow (warnings) | `#ffd93d` |
-| Text | `#e8e6f0` |
-| Muted | `#6b6880` |
-
 ## Based on
 
 This theme is built on top of **[Simple Dark.](https://github.com/shdwmtr/simply-dark)** by ShadowMonster, reworked with the Digital Parasite color palette. Simple Dark provides a solid, well-tested CSS structure for the Steam client; Digital Parasite swaps in the Capri-inspired neon colors.
@@ -40,9 +27,9 @@ Once the theme is published on [steambrew.app](https://steambrew.app/themes), yo
 
 ## Features
 
-- Dark cyberpunk background (`#0a0a12`)
-- Rose (`#ff2d7a`) and green (`#39ff88`) neon accents
-- Cyan links (`#00e5ff`)
+- Dark cyberpunk background
+- Rose and green neon accents
+- Cyan links
 - Custom scrollbars, buttons, inputs, tooltips, progress bars
 - Styled Steam store (WebKit) with matching colors
 - Fully functional library, friends, chat, settings, downloads, overlay
