@@ -82,6 +82,35 @@
   --border-radius-extra-large: 0px !important;
 }
 
+/* Square essentials (override squircle/rounded selected background) */
+.tabbrowser-tab[zen-essential="true"] {
+  corner-shape: none !important;
+  --zen-essential-bg-margin: 0px !important;
+  --zen-essential-tab-selected-bg: var(--surface) !important;
+  --zen-essential-tab-selected-bg-hover: var(--overlay) !important;
+}
+
+.tabbrowser-tab[zen-essential="true"] .tab-background {
+  border-radius: 0 !important;
+  corner-shape: none !important;
+  background: var(--surface) !important;
+}
+
+.tabbrowser-tab[zen-essential="true"][visuallyselected] .tab-background {
+  border-radius: 0 !important;
+  corner-shape: none !important;
+}
+
+.tabbrowser-tab[zen-essential="true"][visuallyselected] .tab-background::before {
+  border-radius: 0 !important;
+  corner-shape: none !important;
+}
+
+.tabbrowser-tab[zen-essential="true"][visuallyselected] .tab-background::after {
+  border-radius: 0 !important;
+  corner-shape: none !important;
+}
+
 /* Square everything */
 * {
   border-radius: 0 !important;
