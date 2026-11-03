@@ -19,6 +19,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 📟 [YASB (Shibumi)](./YASB-Shibumi) | Hyprland-inspired YASB bar | `config.yaml` + `styles.css` — [Source: AmNweb/Shibumi_YASB](https://github.com/AmNweb/Shibumi_YASB) |
 | 🤖 [Hermes](./Hermes) | Hermes Agent skin | `digital-parasite.yaml` |
 | 🌐 [Chrome / Edge](./Chrome) | Browser theme (Manifest V3) | `manifest.json` |
+| 🦊 [Zen Browser](./Zen-Browser) | Zen Browser theme (userChrome.css) | `digital-parasite.css` |
 | 🌙 [Dark Reader](./Dark-Reader) | Dark Reader settings (JSON) | `digital-parasite-darkreader.json` |
 | 📓 [Obsidian](./Obsidian) | Obsidian theme (Cyberpunk-based) | `Cyberpunk/theme.css` |
 | 🖼️ [Wallpaper](./Wallpaper) | Digital Parasite wallpapers | `Capri wallpaper.jpg` |
@@ -61,6 +62,7 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Hermes Agent:** [Official website](https://hermes-agent.nousresearch.com/docs)
 - **Obsidian Cyberpunk theme:** [nxxxsooo/obsidian-cyberpunk-theme](https://github.com/nxxxsooo/obsidian-cyberpunk-theme)
 - **Chrome / Edge:** Browser theme via Manifest V3 theme API.
+- **Zen Browser:** Browser theme via userChrome.css (square UI, Digital Parasite palette).
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
 - **Steam:** Steam client theme (Millennium-based, recolored with Digital Parasite palette) — based on [Simple Dark.](https://github.com/shdwmtr/simply-dark) by ShadowMonster, powered by [Millennium](https://github.com/SteamClientHomebrew/Millennium)
 - **Kovaak's:** Aim trainer theme (based on the user's existing themes, recolored with Digital Parasite palette)

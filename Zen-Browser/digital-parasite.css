@@ -1,0 +1,252 @@
+/* Digital Parasite — Zen Browser Theme
+   Inspired by Capri from Cyberpunk: Edgerunners 2
+   Palette: Rose #ff2d7a, Green #39ff88, Cyan #00e5ff, Yellow #ffd93d
+   on deep dark background #0a0a12 */
+
+* {
+  --base:           #0a0a12;
+  --surface:        #12121f;
+  --overlay:        #1a1a2e;
+  --muted:          #6b6880;
+  --subtle:         #8a88a0;
+  --text:           #e8e6f0;
+  --rose:           #ff2d7a;
+  --green:          #39ff88;
+  --cyan:           #00e5ff;
+  --yellow:         #ffd93d;
+  --border:         #2a2a3f;
+  --highlightLow:   #0d0d18;
+  --highlightMed:   #1a1a2e;
+  --highlightHigh:  #2a2a3f;
+}
+
+:root {
+  /* Zen color variables */
+  --zen-colors-primary: var(--base) !important;
+  --zen-primary-color: var(--rose) !important;
+  --zen-colors-secondary: var(--surface) !important;
+  --zen-colors-tertiary: var(--overlay) !important;
+  --zen-colors-border: var(--border) !important;
+  --toolbarbutton-icon-fill: var(--rose) !important;
+  --lwt-text-color: var(--text) !important;
+  --toolbar-field-color: var(--text) !important;
+  --tab-selected-textcolor: var(--rose) !important;
+  --toolbar-field-focus-color: var(--text) !important;
+  --toolbar-color: var(--text) !important;
+  --newtab-text-primary-color: var(--text) !important;
+  --arrowpanel-color: var(--text) !important;
+  --arrowpanel-background: var(--surface) !important;
+  --sidebar-text-color: var(--text) !important;
+  --lwt-sidebar-text-color: var(--text) !important;
+  --lwt-sidebar-background-color: var(--base) !important;
+  --toolbar-bgcolor: var(--base) !important;
+  --newtab-background-color: var(--overlay) !important;
+  --zen-themed-toolbar-bg: var(--base) !important;
+  --zen-main-browser-background: var(--base) !important;
+  --zen-main-browser-background-toolbar: var(--base) !important;
+  --zen-navigator-toolbox-background: var(--base) !important;
+
+  /* Accent colors */
+  --zen-accent-color: var(--rose) !important;
+  --zen-accent-color-foreground: var(--base) !important;
+
+  /* Tab colors */
+  --tab-line-color: var(--rose) !important;
+  --tab-loading-fill: var(--rose) !important;
+  --tab-selected-bg-color: var(--surface) !important;
+
+  /* URL bar */
+  --toolbar-field-background-color: var(--surface) !important;
+  --toolbar-field-border-color: var(--border) !important;
+  --toolbar-field-focus-background-color: var(--surface) !important;
+
+  /* Sidebar */
+  --zen-sidebar-background: var(--base) !important;
+  --zen-sidebar-color: var(--text) !important;
+
+  /* Panels / popups */
+  --panel-background: var(--surface) !important;
+  --panel-color: var(--text) !important;
+  --panel-border-color: var(--border) !important;
+
+  /* Buttons */
+  --button-bgcolor: var(--surface) !important;
+  --button-color: var(--text) !important;
+  --button-hover-bgcolor: var(--overlay) !important;
+  --button-active-bgcolor: var(--highlightMed) !important;
+
+  /* All square — no rounding */
+  --border-radius-small: 0px !important;
+  --border-radius-medium: 0px !important;
+  --border-radius-large: 0px !important;
+  --border-radius-extra-large: 0px !important;
+}
+
+/* Square everything */
+* {
+  border-radius: 0 !important;
+}
+
+.tabbrowser-tab,
+.tab-background,
+.urlbar-input-box,
+.urlbar,
+.searchbar-textbox,
+.toolbarbutton-1,
+.toolbarbutton-1 > .toolbarbutton-icon,
+.panel-arrowcontent,
+.panel-arrow,
+menupopup,
+menu,
+menuitem,
+.tooltip,
+#sidebar-box,
+.sidebar-panel,
+#urlbar-results,
+.urlbarView,
+.urlbarView-row,
+.zen-workspace-tab,
+.zen-workspace-indicator,
+#zen-sidebar-top-buttons button,
+.zen-sidebar-footer button {
+  border-radius: 0 !important;
+}
+
+/* Tab styling */
+.tabbrowser-tab[selected] .tab-background {
+  background: var(--surface) !important;
+  border-bottom: 2px solid var(--rose) !important;
+}
+
+.tabbrowser-tab:hover .tab-background {
+  background: var(--overlay) !important;
+}
+
+.tabbrowser-tab .tab-label {
+  color: var(--text) !important;
+}
+
+.tabbrowser-tab[selected] .tab-label {
+  color: var(--rose) !important;
+}
+
+/* URL bar */
+#urlbar {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+}
+
+#urlbar[focused] {
+  border-color: var(--rose) !important;
+  box-shadow: none !important;
+}
+
+.urlbar-input-box {
+  color: var(--text) !important;
+}
+
+/* Sidebar */
+#sidebar-box {
+  background: var(--base) !important;
+  border-right: 1px solid var(--border) !important;
+}
+
+.zen-sidebar {
+  background: var(--base) !important;
+}
+
+/* Toolbar */
+#navigator-toolbox {
+  background: var(--base) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+/* Menus / popups */
+menupopup,
+.panel-arrowcontent {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+menu,
+menuitem {
+  color: var(--text) !important;
+  border-radius: 0 !important;
+}
+
+menu:hover,
+menuitem:hover {
+  background: var(--overlay) !important;
+  color: var(--rose) !important;
+}
+
+/* Buttons */
+.toolbarbutton-1 {
+  border-radius: 0 !important;
+}
+
+.toolbarbutton-1:hover {
+  background: var(--overlay) !important;
+}
+
+.toolbarbutton-1:active {
+  background: var(--highlightMed) !important;
+}
+
+/* Scrollbars */
+scrollbar {
+  background: var(--base) !important;
+}
+
+scrollbar thumb {
+  background: var(--border) !important;
+  border-radius: 0 !important;
+}
+
+scrollbar thumb:hover {
+  background: var(--muted) !important;
+}
+
+/* New tab page */
+.newtab-page {
+  background: var(--base) !important;
+}
+
+/* Find bar */
+.findbar-textbox {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  border-radius: 0 !important;
+}
+
+/* Tooltip */
+.tooltip {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Loading indicator */
+.tab-loading-burst {
+  fill: var(--rose) !important;
+}
+
+/* Zen workspaces */
+.zen-workspace-indicator {
+  border-radius: 0 !important;
+}
+
+.zen-workspace-tab {
+  border-radius: 0 !important;
+}
+
+/* Remove rounded corners from all XUL elements */
+xul|* {
+  border-radius: 0 !important;
+}
