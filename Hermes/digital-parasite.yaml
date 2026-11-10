@@ -63,11 +63,13 @@ tool_emojis:
   browser: "🌐"
   file: "📄"
 
-custom_css: |
+customCSS: |
   :root {
     --dt-primary-solid: #ff2d7a;
     --dt-accent: #39ff88;
+    --radius-scalar: 0;
   }
+  * { border-radius: 0 !important; }
   .hermes-chat { background: #0a0a12; color: #e8e6f0; }
   .hermes-sidebar { background: #12121f; border-color: #2a2a3f; }
   .hermes-accent { color: #ff2d7a; }

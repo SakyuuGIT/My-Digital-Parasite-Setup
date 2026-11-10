@@ -14,7 +14,7 @@ A [Hermes Agent](https://hermes-agent.nousresearch.com/docs) skin based on the D
 ## Notes
 
 - The skin is single-mode (dark). Missing values inherit from the default Hermes skin.
-- The `custom_css` block injects Digital Parasite colors into the Hermes Desktop GUI (chat background and sidebar).
+- The `customCSS` block injects Digital Parasite colors into the Hermes Desktop GUI (chat background and sidebar) and forces square corners (`--radius-scalar: 0`, `border-radius: 0`).
 - Includes a custom spinner with faces `(✨)`, `(🎀)`, `(⚡)` and thinking verbs (pulsing, infecting, glitching, parasiting, morphing, clinking).
 
 Based on the Hermes skin system — see [CONTRIBUTING.md](https://github.com/NousResearch/hermes-agent/blob/main/CONTRIBUTING.md#adding-a-skin--theme).
