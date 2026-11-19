@@ -2,18 +2,42 @@
 
 Wallpapers for the Digital Parasite theme. Place them in your wallpaper folder and point YASB's wallpapers widget to this directory.
 
+Source folder on PC: `D:\Images\Wallpaper YASB\Digital Parasite`
+
 ## Files
 
-| File | Description |
-| --- | --- |
-| `Capri wallpaper.jpg` | Capri character wallpaper |
-| `Capri 1.jpg` | Digital Parasite wallpaper |
-| `Capri 2.jpg` | Digital Parasite wallpaper |
-| `Capri 3.png` | Digital Parasite wallpaper |
-| `Capri 4.jpg` | Digital Parasite wallpaper |
-| `Capri 5.jpg` | Digital Parasite wallpaper |
-| `Capri 6.jpeg` | Digital Parasite wallpaper |
-| `Capri 7.jpeg` | Digital Parasite wallpaper |
+### Capri
+
+| File |
+| --- |
+| `Capri 1.jpg` |
+| `Capri 2.png` |
+| `Capri 3.jpeg` |
+| `Capri 4.jpeg` |
+| `Capri 5.jpg` |
+| `Capri 6.jpg` |
+
+### D & Capri
+
+| File |
+| --- |
+| `D & Capri 0.jpg` |
+| `D & Capri 1.jpg` |
+| `D & Capri 2.jpg` |
+| `D & Capri 3.jpg` |
+| `D & Capri 4.jpg` |
+| `D & Capri 5.jpg` |
+| `D & Capri 6.jpg` |
+| `D & Capri 7.jpg` |
+| `D & Capri 8.jpg` |
+| `D & Capri 9.jpg` |
+
+### D
+
+| File |
+| --- |
+| `D 0.jpg` |
+| `D 1.jpg` |
 
 ## YASB Integration
 
@@ -28,4 +52,4 @@ wallpapers:
 
 ---
 
-Adapted and maintained by **Sakyuu**. Original work by the respective authors credited above.
+Adapted and maintained by **Sakyuu**.
