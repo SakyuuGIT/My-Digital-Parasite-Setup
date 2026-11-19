@@ -26,6 +26,7 @@ A collection of themes and configuration files for my Windows environment, built
 | 🎯 [Kovaak's](./Kovaak) | Kovaak's aim trainer theme | `! Sakyuu - Digital Parasite.json` |
 | 🎮 [Steam](./Steam) | Steam client theme (Millennium) | `Steam.css` |
 | 🧑‍💻 [Visual Studio Code](./VS-code) | VS Code color customizations | `settings.json` |
+| 🔤 [Font Wizard](./Font-Wizard) | System font manager + JetBrains Mono Nerd Font | `fonts/` |
 
 ## Preview
 
@@ -64,6 +65,8 @@ Some themes load stylesheets or other resources from their upstream projects, so
 - **Chrome / Edge:** Browser theme via Manifest V3 theme API.
 - **Zen Browser:** Browser theme via userChrome.css (square UI, Digital Parasite palette).
 - **Visual Studio Code:** [Official website](https://code.visualstudio.com/)
+- **Font Wizard:** [karnyadavdev/FontWizard](https://github.com/karnyadavdev/FontWizard) — system font manager
+- **JetBrains Mono Nerd Font:** [JetBrains](https://github.com/JetBrains/JetBrainsMono) + [nerd-fonts](https://github.com/ryanoasis/nerd-fonts)
 - **Steam:** Steam client theme (Millennium-based, recolored with Digital Parasite palette) — based on [Simple Dark.](https://github.com/shdwmtr/simply-dark) by ShadowMonster, powered by [Millennium](https://github.com/SteamClientHomebrew/Millennium)
 - **Kovaak's:** Aim trainer theme (based on the user's existing themes, recolored with Digital Parasite palette)
 
