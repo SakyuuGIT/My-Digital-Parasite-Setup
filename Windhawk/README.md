@@ -26,6 +26,7 @@ Thirteen [Windhawk](https://windhawk.net/) mod configurations themed with the Di
 | 9 | `Windows-11-Notification-Center-Styler.yaml` | Windows 11 Notification Center Styler | Dark panel with rose accents |
 | 10 | `Windows-11-Start-Menu-Styler.yaml` | Windows 11 Start Menu Styler | Dark menu with rose hover highlight and cyan border |
 | 11 | `Windows-11-Taskbar-Styler.yaml` | Windows 11 Taskbar Styler | Dark taskbar with rose bottom border (taskbar on top) |
+| 12 | `Taskbar-Labels.yaml` | Taskbar Labels for Windows 11 | Labels on taskbar buttons, width 160 |
 
 ### Mods enabled without config files
 

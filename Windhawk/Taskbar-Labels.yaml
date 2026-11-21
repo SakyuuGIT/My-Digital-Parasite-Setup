@@ -1,0 +1,19 @@
+mode: noLabelsWithoutCombining
+taskbarItemWidth: 160
+runningIndicatorStyle: centerFixed
+progressIndicatorStyle: sameAsRunningIndicatorStyle
+excludedPrograms:
+  - ''
+minimumTaskbarItemWidth: 50
+maximumTaskbarItemWidth: 176
+fontSize: 12
+fontFamily: ''
+textTrimming: characterEllipsis
+leftAndRightPaddingSize: 8
+spaceBetweenIconAndLabel: 8
+runningIndicatorHeight: 0
+runningIndicatorVerticalOffset: 0
+alwaysShowProgramNameWhenCombined: 0
+alwaysShowThumbnailLabels: 0
+labelForSingleItem: '%name%'
+labelForMultipleItems: '[%amount%] %name%'
