@@ -1,33 +1,34 @@
-# Firefox — Digital Parasite Theme (square variant)
+# Firefox — Digital Parasite Theme
 
-A Firefox theme using the Digital Parasite palette. All UI elements are **square** (no rounded corners), matching the Digital Parasite rule.
+A Firefox theme using the Digital Parasite palette. All UI elements use **square (no rounding) corners**.
 
 Two layers:
 
-- `manifest.json` — WebExtension theme (browser chrome colors).
-- `userChrome.css` — deep UI styling (tabs, urlbar, menus, scrollbars, tooltips).
+- `userChrome.css` — deep UI styling (tabs, urlbar, menus, scrollbars, tooltips). This is the
+  layer that actually restyles Firefox.
+- `manifest.json` — WebExtension color theme (optional, temporary only).
 
-## Installation
+## Install — the method that works on stock Firefox
 
-### 1. Color theme
+Firefox Release refuses unsigned add-ons installed from a file. If you open the `.xpi`,
+Firefox reports *"the add-on appears to be corrupt"* — that is a signature rule, not a broken
+file. Use the CSS method instead (same one used for the Zen Browser theme):
+
+1. Open `about:config` and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
+2. Open `about:support` → **Profile Folder** → **Open Folder**.
+3. Create a `chrome` folder inside the profile.
+4. Copy `userChrome.css` into that `chrome` folder.
+5. Restart Firefox.
+
+## Optional — temporary color theme
 
 1. Open `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on…**.
-3. Select `manifest.json` in this folder.
-
-### 2. Deep UI styling
-
-1. Open `about:config`.
-2. Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
-3. Open `about:support` → **Profile Folder** → **Open Folder**.
-4. Create a `chrome` folder inside it.
-5. Copy `userChrome.css` into that `chrome` folder.
-6. Restart Firefox.
+2. Click **Load Temporary Add-on…** and select `manifest.json`.
+3. This lasts until Firefox is closed; it cannot be installed permanently without signing.
 
 ## Uninstallation
 
-Remove `userChrome.css` from the `chrome` folder and disable the temporary add-on in
-`about:debugging`.
+Remove `userChrome.css` from the profile's `chrome` folder and restart Firefox.
 
 ---
 
