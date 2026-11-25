@@ -1,0 +1,95 @@
+/* Digital Parasite — Firefox Theme
+   Inspired by Capri from Cyberpunk: Edgerunners 2
+   Palette: Rose #ff2d7a, Green #39ff88, Cyan #00e5ff, Yellow #ffd93d
+   on deep dark background #0a0a12 */
+
+* {
+  --dp-base:    #0a0a12;
+  --dp-surface: #12121f;
+  --dp-overlay: #1a1a2e;
+  --dp-muted:   #6b6880;
+  --dp-text:    #e8e6f0;
+  --dp-rose:    #ff2d7a;
+  --dp-green:   #39ff88;
+  --dp-cyan:    #00e5ff;
+  --dp-yellow:  #ffd93d;
+  --dp-border:  #2a2a3f;
+  --dp-radius:  0px;
+}
+
+:root {
+  --lwt-text-color: var(--dp-text) !important;
+  --toolbar-color: var(--dp-text) !important;
+  --toolbar-bgcolor: var(--dp-base) !important;
+  --toolbarbutton-icon-fill: var(--dp-rose) !important;
+  --toolbar-field-background-color: var(--dp-surface) !important;
+  --toolbar-field-color: var(--dp-text) !important;
+  --toolbar-field-border-color: var(--dp-border) !important;
+  --toolbar-field-focus-background-color: var(--dp-surface) !important;
+  --toolbar-field-focus-color: var(--dp-text) !important;
+  --tab-selected-textcolor: var(--dp-rose) !important;
+  --tab-line-color: var(--dp-rose) !important;
+  --tab-loading-fill: var(--dp-rose) !important;
+  --arrowpanel-background: var(--dp-surface) !important;
+  --arrowpanel-color: var(--dp-text) !important;
+  --arrowpanel-border-color: var(--dp-border) !important;
+  --panel-background: var(--dp-surface) !important;
+  --panel-color: var(--dp-text) !important;
+  --panel-border-color: var(--dp-border) !important;
+  --button-bgcolor: var(--dp-surface) !important;
+  --button-color: var(--dp-text) !important;
+  --button-hover-bgcolor: var(--dp-overlay) !important;
+  --newtab-background-color: var(--dp-base) !important;
+  --newtab-text-primary-color: var(--dp-text) !important;
+}
+
+/* Radius applied everywhere */
+* { border-radius: var(--dp-radius) !important; }
+
+/* Tabs */
+.tabbrowser-tab[selected] .tab-background {
+  background: var(--dp-surface) !important;
+  border-bottom: 2px solid var(--dp-rose) !important;
+}
+.tabbrowser-tab:hover .tab-background { background: var(--dp-overlay) !important; }
+.tabbrowser-tab .tab-label { color: var(--dp-text) !important; }
+.tabbrowser-tab[selected] .tab-label { color: var(--dp-rose) !important; }
+.tab-loading-burst { fill: var(--dp-rose) !important; }
+
+/* URL bar */
+#urlbar {
+  background: var(--dp-surface) !important;
+  border: 1px solid var(--dp-border) !important;
+}
+#urlbar[focused] { border-color: var(--dp-rose) !important; box-shadow: none !important; }
+.urlbar-input-box { color: var(--dp-text) !important; }
+
+/* Toolbar / navigator */
+#navigator-toolbox {
+  background: var(--dp-base) !important;
+  border-bottom: 1px solid var(--dp-border) !important;
+}
+.toolbarbutton-1:hover { background: var(--dp-overlay) !important; }
+.toolbarbutton-1:active { background: var(--dp-overlay) !important; }
+
+/* Menus / panels / tooltips */
+menupopup, .panel-arrowcontent, .tooltip {
+  background: var(--dp-surface) !important;
+  color: var(--dp-text) !important;
+  border: 1px solid var(--dp-border) !important;
+  box-shadow: none !important;
+}
+menu, menuitem { color: var(--dp-text) !important; }
+menu:hover, menuitem:hover { background: var(--dp-overlay) !important; color: var(--dp-rose) !important; }
+
+/* Find bar */
+.findbar-textbox {
+  background: var(--dp-surface) !important;
+  border: 1px solid var(--dp-border) !important;
+  color: var(--dp-text) !important;
+}
+
+/* Scrollbars */
+scrollbar { background: var(--dp-base) !important; }
+scrollbar thumb { background: var(--dp-border) !important; }
+scrollbar thumb:hover { background: var(--dp-muted) !important; }
