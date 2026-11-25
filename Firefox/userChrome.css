@@ -279,3 +279,58 @@ scrollbar thumb:hover {
 xul|* {
   border-radius: 0 !important;
 }
+
+
+/* Firefox native vertical tabs — tinted strip */
+#vertical-tabs,
+#vertical-tabs-wrapper,
+#tabbrowser-tabs[orient="vertical"],
+#tabbrowser-tabs[orient="vertical"] #tabbrowser-arrowscrollbox,
+#tabbrowser-tabs[orient="vertical"] #tabbrowser-arrowscrollbox *,
+#vertical-pinned-tabs-container,
+#pinned-tabs-container,
+#TabsToolbar,
+#sidebar-box,
+#sidebar-box .sidebar-panel,
+#sidebar-background {
+  background: var(--base) !important;
+  border-right: 1px solid var(--border) !important;
+  color: var(--text) !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] .tabbrowser-tab,
+#tabbrowser-tabs[orient="vertical"] .tab-background,
+#vertical-pinned-tabs-container .tabbrowser-tab,
+#pinned-tabs-container .tabbrowser-tab {
+  background: var(--surface) !important;
+  border-radius: 0 !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] .tabbrowser-tab:hover .tab-background {
+  background: var(--overlay) !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] .tabbrowser-tab[selected] .tab-background,
+#vertical-pinned-tabs-container .tabbrowser-tab[selected] .tab-background,
+#pinned-tabs-container .tabbrowser-tab[selected] .tab-background {
+  background: var(--overlay) !important;
+  border-left: 2px solid var(--rose) !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] .tab-label,
+#vertical-pinned-tabs-container .tab-label {
+  color: var(--text) !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] .tabbrowser-tab[selected] .tab-label {
+  color: var(--rose) !important;
+}
+
+#vertical-tabs > .toolbar,
+#vertical-tabs .toolbar,
+#sidebar-switcher-target,
+#sidebar-header {
+  background: var(--base) !important;
+  color: var(--text) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
